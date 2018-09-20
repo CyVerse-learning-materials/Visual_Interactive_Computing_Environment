@@ -13,14 +13,16 @@ The goal of this guide is to introduce VICE, a visual and interactive computing 
 .. toctree::
 	:maxdepth: 2
 
-  About <about.rst>
-  Quickstart <quick.rst>
-  Applications <apptypes.rst>
-	Data <data.rst>
-  Advanced <advanced.rst>
-  Community <community.rst>
-  Workflow <workflow.rst>
-  FAQ <faq.rst>
+  1. About <about.rst>
+  2. VICE Applications <apptypes.rst>
+  3. Running the Jupyter Notebook App <quick-jupyter.rst>
+  4. Running the Rstudio App <quick-rstudio.rst>
+  5. Running the Rshiny App <quick-rshiny.rst>
+	6. Data <data.rst>
+  7. Advanced <advanced.rst>
+  8. Community <community.rst>
+  9. Workflow <workflow.rst>
+  10. FAQ <faq.rst>
 ..
 	#### Comment:This tutorial can have multiple pages. The table of contents assumes
 	you have an additional page called 'First Step' with content located in 'step1.rst'.
