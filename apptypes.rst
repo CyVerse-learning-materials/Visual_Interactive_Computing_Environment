@@ -6,21 +6,31 @@
 **Applications**
 ----------------
 
-Currently VICE apps can be categorized broadly into three different types: Jupyter Notebooks/Lab, Rstudio and Rshiny. 
+Currently VICE apps are categorized broadly into three different spaces: 
 
-.. Note::
+* Integrated Development Environments (Jupyter Notebooks & Lab, RStudio) 
+* Apps (Shiny) 
+* Virtual Desktops (VNC, Apache Guacamole) 
 
-	In future there will support for many different types of VICE apps.
+.. Note:: In the future there will be support for many different types of VICE apps.
 
-Each of these apps will serve different purposes. If you are interested in doing python/R/Julia based exploratory data analysis or visualization, you can use Jupyter Notebook/Lab app, whereas if you are interested in doing R-based exploratory data analysis or visualization you will use Rstudio VICE app. Finally Rshiny apps are good for interactive data analysis in R.
+Each of these serve a different data science purpose. 
 
-What is Jupyter Notebook?
-=========================
+If you are interested in writing Python, Julia, Spark, C++ based data analysis or visualization, Jupyter is most appropriate.
+
+If you are interested in creating analyses written in R, RStudio would be more appropriate. 
+
+If you have a pre-built analysis tool built in R, Shiny is used.
+
+If you want to work in other Linux based software, you can launch a virtual deskop using VNC or Apache Guacamole, and work with your tools there.
+
+What is a Jupyter Notebook?
+==========================
 
 The `Jupyter Notebook <https://jupyter.readthedocs.io/en/latest/>`_ (formerly IPython Notebook) is Project Jupyter's flagship project for creating reproducible computational narratives. It enables users to create and share documents that combine live code with narrative text, mathematical equations, visualizations, interactive controls, and other rich output. It also provides building blocks for interactive computing with data: a file browser, terminals, and a text editor Notebook documents (or “notebooks”) are documents produced by the Jupyter Notebook App, which contain both computer code (e.g. python, r, julia) and rich text elements (paragraph, equations, figures, comments, images, links, etc…). Notebook documents are both human-readable documents containing the analysis description and the results (figures, images, tables, etc..) as well as executable documents which can be run to perform data analysis. Jupyter Notebooks become a popular tool for teaching and conducting data science. They are the backbone for a number of commercial data science projects and other research projects as well. The Jupyter Notebook App is a server-client application that allows editing and running notebook documents via a web browser. The Jupyter Notebook App can be executed on a local desktop requiring no internet access (as described in this document) or can be installed on a remote server and accessed through the internet. In addition to displaying/editing/running notebook documents, the Jupyter Notebook App has a “Dashboard” (Notebook Dashboard), a “control panel” showing local files and allowing to open notebook documents or shutting down their kernels.
 
-What is the Jupyter Lab?
-~~~~~~~~~~~~~~~~~~~~~~~~
+What is Jupyter Lab?
+====================
 
 JupyterLab is an interactive development environment for working with notebooks, code and data. Most importantly, JupyterLab has full support for Jupyter notebooks. Additionally, JupyterLab enables you to use text editors, terminals, data file viewers, and other custom components side by side with notebooks in a tabbed work area. JupyterLab provides a high level of integration between notebooks, documents, and activities:
 
@@ -33,15 +43,15 @@ JupyterLab has been over three years in the making, with over 11,000 commits and
 
 To learn more about Jupyter lab, click `here <https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f039b8906>`_ 
 
-Jupyter lab VICE app in DE
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Jupyter Lab VICE 
+~~~~~~~~~~~~~~~~
 
 Jupyter lab VICE app is integrated into DE which includes Jupyter Notebook text editors, terminals, data file viewers, irods plugin and other custom components.
 
 Click here to do a quick launch of Jupyter Lab VICE app in DE
 
-Rstudio
-=======
+What is RStudio?
+================
 
 RStudio is a free and open-source integrated development environment for R, a programming language for statistical computing and graphics. Some of its features include:
 
@@ -53,8 +63,8 @@ RStudio is a free and open-source integrated development environment for R, a pr
 
 Click here to do a quick launch of Jupyter Notebook in DE
 
-Shiny
-======
+What is Shiny?
+==============
 
 Shiny is an open source R package that provides an elegant and powerful web framework for building web applications using R. Shiny helps you turn your analyses into interactive web applications without requiring HTML, CSS, or JavaScript knowledge. Some of it's features include:
 
@@ -70,6 +80,14 @@ Shiny is an open source R package that provides an elegant and powerful web fram
 - Develop and redistribute your own Shiny widgets that other developers can easily drop into their own applications (coming soon!
 
 Click here to do a quick launch of Jupyter Notebook in DE
+
+Linux Desktops
+==============
+
+VNC
+
+
+Apache Guacamole
 
 ----
 
