@@ -3,21 +3,36 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**data**
---------
+**Data transfer**
+-----------------
 
-Data transfer to the app
-========================
+Remember, you're moving data across the web, rather than downloading to your local machine.
 
-Upload data
-===========
+Transfer (Web to CyVerse)
+=========================
 
-Download data
-=============
+- In Jupyter or RStudio Terminal CLI:
 
-irods plugin
-============
+  * `iRODS icommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html>`_.
+  * ``curl`` and ``wget`` (`examples <https://daniel.haxx.se/docs/curl-vs-wget.html>`_) 
+  * ``git`` to pull or push files to `GitHub <http://github.com/>`_ or `GitLab <https://about.gitlab.com/>`_
 
+Upload & Download
+=================
+
+- Moving data from your localhost onto CyVerse `iRODS <https://irods.org/>`_ Data Store
+
+  * `iRODS icommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html>`_
+  * `CyberDuck <https://cyberduck-quickstart.readthedocs.io/en/latest/#>`_
+
+- Downloads from Apps
+
+  * Certain apps will have HTTP based features for downloading output or uploading data from your localhost.
+
+iRODS Jupyter Plugin
+====================
+
+- CyVerse has enabled a Jupyter Lab plugin for viewing iRODS Data Stores.
 
 ----
 
