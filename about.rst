@@ -43,6 +43,7 @@ Conclusion
 
 .. |VICE diagram| image:: ./img/vice_diagram.png
     :width: 800
+    :height: 590
     
 .. |Home_Icon| image:: ./img/homeicon.png
     :width: 25
