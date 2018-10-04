@@ -8,7 +8,7 @@
 
 What is VICE?
 =============
-**VICE** stands for **V**\isual **I**\nteractive **C**\omputing **E**\nvironment, and is a component of CyVerse's data science workbench, called the `Discovery Environment (DE) <https://www.cyverse.org/discovery-environment>`_. **VICE** allows users to launch web-based applications from the DE. Once an application is launched, the user can access the launched **VICE** app through a linked URL, they can bring their data from the `CyVerse Data Store <https://www.cyverse.org/data-store>`_ into the application, or pull data from anywhere on the web using standard requests (`curl` `wget` `git`).
+**VICE** stands for **V**\isual **I**\nteractive **C**\omputing **E**\nvironment, and is a component of CyVerse's data science workbench, called the `Discovery Environment (DE) <https://www.cyverse.org/discovery-environment>`_. **VICE** allows users to launch web-based applications from the DE. Once an application is launched, the user can access the **VICE** app through a linked URL, they can bring their data from the `CyVerse Data Store <https://www.cyverse.org/data-store>`_ into the application, or pull data from anywhere on the web using standard requests (`curl` `wget` `git`).
 
 |VICE diagram|
 
