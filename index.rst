@@ -6,7 +6,7 @@
 VICE Guide
 ==========
 
-The goal of this guide is to introduce VICE, a visual and interactive computing environment which is the latest feature in CyVerse's Discovery Environment (DE) for running intearctive apps. This guide introduces users to VICE, e.g., how to launch intearctive apps, build interactive apps etc.
+The goal of this guide is to introduce VICE, a visual and interactive computing environment which is the latest feature in CyVerse's Discovery Environment (DE) for running interactive apps. This guide introduces users to basic functions of VICE, e.g., how to launch interactive apps, build interactive apps etc.
 
 ----
 
