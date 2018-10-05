@@ -5,7 +5,7 @@
 
 **Jupyter Lab app quick launch**
 --------------------------------
-Jupyter Notebook is an incredibly powerful tool for interactively developing and presenting data science projects. A Jupyter notebook integrates code and its output into a single document that combines visualisations, narrative text, mathematical equations, and other rich media. The intuitive workflow promotes iterative and rapid development, making notebooks an increasingly popular choice at the heart of contemporary data science, analysis, and increasingly, science at large.
+Jupyter Notebook is an incredibly powerful tool for interactively developing and presenting data science projects. A Jupyter Notebook integrates code and its output into a single document that combines visualisations, narrative text, mathematical equations, and other rich media. The intuitive workflow promotes iterative and rapid development, making notebooks an increasingly popular choice at the heart of contemporary data science, analysis, and increasingly, science at large.
 
 1. Running Jupyter Lab
 ======================
@@ -33,7 +33,7 @@ After the analysis starts running, click on the "Access your running Analysis he
 4. Launch Jupyter Notebook
 ==========================
 
-In the new URL, click on Python 3 under Notebook section which will open a new Jupyter notebook
+In the new URL, click on Python 3 under Notebook section which will open a new Jupyter Notebook
 
 |jupyter1-5|
 
