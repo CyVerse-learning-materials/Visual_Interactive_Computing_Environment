@@ -6,7 +6,7 @@
 **Data transfer**
 -----------------
 
-Remember, you're moving data across the web, rather than downloading to your local machine.
+Remember, in VICE, you're moving data across the web, rather than downloading to your local machine.
 
 Transfer (Web to CyVerse)
 =========================
