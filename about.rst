@@ -14,22 +14,22 @@ What is VICE?
 
 What is the big idea?
 =====================
-The CyVerse DE hosts a large number of CLI applications for researchers to perform bioinformatic data analysis. **VICE** introduces graphic user interfaces (GUI) and common Integrated Development Environments (IDE) such as `Project Jupyter Notebooks & Lab <http://jupyter.org/>`_, `Rstudio <https://www.rstudio.com/>`_, and `Shiny Apps <https://shiny.rstudio.com/>`_. 
+The CyVerse DE hosts a large number of CLI applications for researchers to perform bioinformatic data analysis. **VICE** introduces graphic user interfaces (GUIs) and common Integrated Development Environments (IDEs) such as `Project Jupyter Notebooks & Lab <http://jupyter.org/>`_, `Rstudio <https://www.rstudio.com/>`_, and `Shiny Apps <https://shiny.rstudio.com/>`_. 
 
 **VICE** allows exploratory bioinformatic and geoinformatic data analysis as well as the ability to run ad-hoc scripts.
 
-By working on an advanced, scalable, cyberinfrastructure you are essentially moving your algorithms and code to the center where data and compute live. CyVerse operates on an Internet2 backbone, meaning your data are transferred at rates which likely exceed your local ISP or campus network.  
+By working on an advanced, scalable cyberinfrastructure, you are essentially moving your algorithms and code to the center where data and compute live. CyVerse operates on an Internet2 backbone, meaning your data are transferred at rates which likely exceed your local ISP or campus network.  
 
-How is it different than other DE apps?
+How is VICE different than other DE apps?
 =======================================
-The other apps in the DE are non-interactive, meaning, the user selects parameters and data for a particular analysis, and submits the job to CyVerse. When the process completes the user is notified and they can view their analysis results in a folder. 
+Other apps in the DE are non-interactive, meaning the user selects parameters and data for a particular analysis, and submits the job to CyVerse. When the process completes, the user is notified and they can view their analysis results in a folder. Any desired changes in results requires the user to change analysis parameters and run the job again to full completion.
 
-**VICE** let users interact with their data and do analyses in their favorite programming language.  Researchers can now explore their datasets interactively by easily changing parameters of selected analysis applications without having to download data from storage to an active workspace. 
+**VICE**, on the other hand, let users interact with their data and do analyses in their favorite programming language in one place in an iterative way. Researchers can now explore their datasets interactively by easily changing parameters of selected analysis applications without having to download data from storage to an active workspace. 
 
 Conclusion
 ==========
 
-**VICE** combines the cyberinfrastructure power of CyVerse with the interactivity of modern web-based IDE and data science software, allowing researchers to work seemlessly with their data in a single high performance data science workbench.
+**VICE** combines the cyberinfrastructure power of CyVerse with the interactivity of modern web-based IDE and data science software, allowing researchers to work seamlessly with their data within a single, high-performance data science workbench.
 
 ----
 
