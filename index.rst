@@ -6,7 +6,7 @@
 VICE Guide
 ==========
 
-The goal of this guide is to introduce VICE, a visual and interactive computing environment which is a latest feature in CyVerse's Discovery Environment for running intearctive apps. This guide will serve as the introduction to VICE, how to launch intearctive apps, build interactive apps etc.,
+The goal of this guide is to introduce VICE, a visual and interactive computing environment which is the latest feature in CyVerse's Discovery Environment (DE) for running intearctive apps. This guide introduces users to VICE, e.g., how to launch intearctive apps, build interactive apps etc.
 
 ----
 
@@ -24,7 +24,7 @@ The goal of this guide is to introduce VICE, a visual and interactive computing 
   9. Workflow <workflow.rst>
   10. FAQ <faq.rst>
 ..
-	#### Comment:This tutorial can have multiple pages. The table of contents assumes
+	#### Comment:This tutorial can have multiple pages. The Table of Contents assumes
 	you have an additional page called 'First Step' with content located in 'step1.rst'.
 	Copy step1.rst. step2.rst has slightly different formatting to end the document.
 	Edit these titles and filenames as needed ####
