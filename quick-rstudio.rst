@@ -5,19 +5,19 @@
 
 **Rstudio App quick launch**
 -----------------------------
-Rstudio is a free, open source IDE (integrated development environment) for R. It's interface is organized so that the user can clearly view graphs, data table, R code and ouput at the same time. It also offers an Import-Wizard-like feature that allows users to import CSV, Excel, SAS (*.sas7bdat), SPSS (*.sav), and Stata (*.dta) files into R without having to write the code to do so
+Rstudio is a free, open source IDE (integrated development environment) for R. Its interface is organized so that the user can clearly view graphs, data table, R code and ouput at the same time. It also offers an Import-Wizard-like feature that allows users to import CSV, Excel, SAS (*.sas7bdat), SPSS (*.sav), and Stata (*.dta) files into R without having to write the code to do so.
 
 1. Running Rstudio App
 ======================
 
-First log-on `CyVerse DE <https://de.cyverse.org/de/>`_, open the Apps window and you can find the Rstuido Lab app by searching for `rstudio`. 
+First log-on `CyVerse DE <https://de.cyverse.org/de/>`_, open the Apps window and find the Rstudio Lab app by searching for `rstudio`. 
 
 |rstudio1-1|
 
 2. Launch analysis
 ==================
 
-Launch the Rstudio app by selecting an example folder and then by clicking launch analysis
+Launch the Rstudio app by selecting an example folder and then clicking launch analysis
 
 |rstudio1-2|
 
@@ -26,7 +26,7 @@ Launch the Rstudio app by selecting an example folder and then by clicking launc
 3. Navigate to rstudio app url
 ==============================
 
-After the analysis start running, click on the "Access your running Analysis here url"
+After the analysis starts running, click on the "Access your running Analysis here url"
 
 |rstudio1-3|
 
@@ -40,7 +40,7 @@ In the new URL, enter `rstudio` for both username and password
 5. Write/Run your code
 ======================
 
-In the Rstudio script section, you can write your code, generate plots, save plots etc.,
+In the Rstudio script section, you can write your code, generate plots, save plots etc.
 
 |rstudio1-5|
 
@@ -49,7 +49,7 @@ In the Rstudio script section, you can write your code, generate plots, save plo
 6. Cancel your analysis
 =======================
 
-Cancel your analysis by clicking the Analysis window and then selecting the Rshiny analysis and clicking Cancel Analysis option under "Analyses" button
+Cancel your analysis by clicking the Analysis window, then select the Rshiny analysis and click Cancel Analysis option under "Analyses" button
 
 |rstudio1-7|
 
