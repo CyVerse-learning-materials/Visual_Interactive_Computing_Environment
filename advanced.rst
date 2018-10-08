@@ -3,6 +3,9 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
+**Adding VICE tools and apps in DE**
+------------------------------------
+
 Adding VICE tools and apps in DE is different from adding regular DE tools and apps. Unlike regular DE tools and apps, the process is not automated. For now, you'll have to follow certain guidelines which are listed below:
 
 1. Figure out if you're going to need additional configuration for the tool
