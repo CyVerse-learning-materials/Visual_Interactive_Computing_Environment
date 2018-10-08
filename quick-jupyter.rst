@@ -5,12 +5,12 @@
 
 **Jupyter Lab App quick launch**
 --------------------------------
-Jupyter Notebook is an incredibly powerful tool for interactively developing and presenting data science projects. A Jupyter notebook integrates code and its output into a single document that combines visualisations, narrative text, mathematical equations, and other rich media. The intuitive workflow promotes iterative and rapid development, making notebooks an increasingly popular choice at the heart of contemporary data science, analysis, and increasingly science at large
+Jupyter Notebook is an incredibly powerful tool for interactively developing and presenting data science projects. A Jupyter Notebook integrates code and its output into a single document that combines visualisations, narrative text, mathematical equations, and other rich media. The intuitive workflow promotes iterative and rapid development, making notebooks an increasingly popular choice at the heart of contemporary data science, analysis, and increasingly, science at large.
 
 1. Running Jupyter Lab
 ======================
 
-First log-on `CyVerse DE <https://de.cyverse.org/de/>`_, open the Apps window and you can find the Jupyter Lab app by searching for `Jupyter Lab`. 
+First log-on `CyVerse DE <https://de.cyverse.org/de/>`_, open the Apps window and find the Jupyter Lab app by searching for `Jupyter Lab`. 
 
 |jupyter1-1|
 
@@ -26,28 +26,28 @@ Launch the Jupyter-Lab app by clicking launch analysis
 3. Navigate to Jupyter-Lab url
 ==============================
 
-After the analysis start running, click on the "Access your running Analysis here url"
+After the analysis starts running, click on the "Access your running Analysis here url"
 
 |jupyter1-4|
 
 4. Launch Jupyter Notebook
 ==========================
 
-In the new URL, click on Python 3 under Notebook section which will open a new Jupyter notebook
+In the new URL, click on Python 3 under Notebook section which will open a new Jupyter Notebook
 
 |jupyter1-5|
 
 5. Write your code
 ==================
 
-In the Jupyter Notebook, you can write your code, generate plots, save plots etc.,
+In the Jupyter Notebook, you can write your code, generate plots, save plots etc.
 
 |jupyter1-6|
 
 6. Cancel your analysis
 =======================
 
-Cancel your analysis by clicking the Analysis window and then selecting the Rshiny analysis and clicking Cancel Analysis option under "Analyses" button
+Cancel your analysis by clicking the Analysis window, then select the Rshiny analysis and click Cancel Analysis option under "Analyses" button
 
 |jupyter1-7|
 

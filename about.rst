@@ -8,19 +8,28 @@
 
 What is VICE?
 =============
-VICE stands for Visual Interactive Computing Environment. VICE allows users of the CyVerse `Discovery Environment <http://de.cyverse.org>`_ to launch web applications that have been packaged as Docker images. Once the application is launched, the users can access the launched VICE apps through a URL generated in the backend and served up through a public-facing reverse proxy. 
+**VICE** stands for **V**\isual **I**\nteractive **C**\omputing **E**\nvironment, and is a component of CyVerse's data science workbench, called the `Discovery Environment (DE) <https://www.cyverse.org/discovery-environment>`_. **VICE** allows users to launch web-based applications from the DE. Once an application is launched, the user can access the **VICE** app through a linked URL, they can bring their data from the `CyVerse Data Store <https://www.cyverse.org/data-store>`_ into the application, or pull data from anywhere on the web using standard requests (``curl`` ``wget`` ``git``).
 
-What is its big idea?
+|VICE diagram|
+
+What is the big idea?
 =====================
-CyVerse Discovery environment hosts a number of GUI applications for researchers to perform their bioinformatic and other kinds of data analysis. Till today they could not run adhoc scripts, arbitrary tools or interactive analysis within DE. This is major stumbling block for data analysis becauase initial analyses of data often involve exploratory data analysis (EDA) using tools such as Jupyter notebooks and Rstudio. VICE will help both the new and experienced users do a thorugh exploratory data analysis as well as run adhoc scripts and arbitrary tools using Jupyter Notebooks and Rstudio and analayze and communicate your data story using Shiny
+The CyVerse DE hosts a large number of CLI applications for researchers to perform bioinformatic data analysis. **VICE** introduces graphic user interfaces (GUIs) and common Integrated Development Environments (IDEs) such as `Project Jupyter Notebooks & Lab <http://jupyter.org/>`_, `Rstudio <https://www.rstudio.com/>`_, and `Shiny Apps <https://shiny.rstudio.com/>`_. 
 
-How is it different than other DE apps?
+**VICE** allows exploratory bioinformatic and geoinformatic data analysis as well as the ability to run ad-hoc scripts.
+
+By working on an advanced, scalable cyberinfrastructure, you are essentially moving your algorithms and code to the center where data and compute live. CyVerse operates on an Internet2 backbone, meaning your data are transferred at rates which likely exceed your local ISP or campus network.  
+
+How is VICE different than other DE apps?
 =======================================
-The other apps available on DE, doesn't let you do exploratory analysis or interact with your data directly. You have to wait for the analysis to finish before you know the result or use the interactive tools on your computer. VICE let users interact with data and analysis in their favorite programming languages mainly through Notebooks, Rstudio and Shiny. Researchers can now explore their datasets interactively by easily changing parameters of selected analysis applications without having to download data from storage to an active workspace. VICE uses executable notebooks such as Jupyter, RShiny, and RStudio to allow researchers to iteratively manipulate your data files manually and process the outputs in the same place. VICE brings well-known, open source web applications, e.g., Jupyter Notebook, Rstudio and Rshiny, to the Discovery Environment so you can tweak your workflow parameters to best match your data analysis needs and perform a variety of new tasks like visualizations, statistical analyses, simulations, etc. – all without leaving the Discovery Environment.
+Other apps in the DE are non-interactive, meaning the user selects parameters and data for a particular analysis, and submits the job to CyVerse. When the process completes, the user is notified and they can view their analysis results in a folder. Any desired changes in results requires the user to change analysis parameters and run the job again to full completion.
+
+**VICE**, on the other hand, let users interact with their data and do analyses in their favorite programming language in one place in an iterative way. Researchers can now explore their datasets interactively by easily changing parameters of selected analysis applications without having to download data from storage to an active workspace. 
 
 Conclusion
 ==========
-Installing Jupyter notebook, Rstudio and Rshiny software on your computer has restriction in that it will only allow certain types of tasks to perform (mainly because of software depedencies and memory requriements). VICE combines the power of DE computation with the interactivity of the modern web.
+
+**VICE** combines the cyberinfrastructure power of CyVerse with the interactivity of modern web-based IDE and data science software, allowing researchers to work seamlessly with their data within a single, high-performance data science workbench.
 
 ----
 
@@ -29,8 +38,13 @@ Installing Jupyter notebook, Rstudio and Rshiny software on your computer has re
 
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
     :width: 500
-    :height: 100
+    :height: 100    
 .. _CyVerse logo: http://learning.cyverse.org/
+
+.. |VICE diagram| image:: ./img/vice_diagram.png
+    :width: 800
+    :height: 590
+    
 .. |Home_Icon| image:: ./img/homeicon.png
     :width: 25
     :height: 25
