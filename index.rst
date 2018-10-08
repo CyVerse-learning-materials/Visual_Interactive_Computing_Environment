@@ -18,8 +18,8 @@ The goal of this guide is to introduce VICE, a visual and interactive computing 
   3. Running the Jupyter Notebook App <quick-jupyter.rst>
   4. Running the Rstudio App <quick-rstudio.rst>
   5. Running the Rshiny App <quick-rshiny.rst>
-	6. Data <data.rst>
-  7. Advanced <advanced.rst>
+	6. Adding VICE tools and apps <advanced.rst>
+  7. Data <data.rst>
   8. Community <community.rst>
   9. Workflow <workflow.rst>
   10. FAQ <faq.rst>

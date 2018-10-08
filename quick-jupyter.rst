@@ -3,7 +3,7 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Jupyter Lab app quick launch**
+**Jupyter Lab App quick launch**
 --------------------------------
 Jupyter Notebook is an incredibly powerful tool for interactively developing and presenting data science projects. A Jupyter notebook integrates code and its output into a single document that combines visualisations, narrative text, mathematical equations, and other rich media. The intuitive workflow promotes iterative and rapid development, making notebooks an increasingly popular choice at the heart of contemporary data science, analysis, and increasingly science at large
 

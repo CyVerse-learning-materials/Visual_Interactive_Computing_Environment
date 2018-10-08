@@ -3,16 +3,12 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Advanced**
-------------
+For now, adding VICE tools and apps in DE is different from adding regular DE tools and apps. Unlike regular DE tools and apps, the process is not automated. For now, you'll have to follow certain guidelines. The following are the detailed steps for adding VICE tools and apps in DE:
 
-Adding VICE tools and apps in DE
-================================
+1. Figure out if you're going to need additional configuration for the tool
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Figure out if you're going to need additional configuration for the tool
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Some tools will require additional configuration in order to get them working correctly with the VICE feature. Some things you'll need/want to configure:
+Some tools will require additional configuration in order to get them working correctly with the VICE feature.
 
 - Ensure that the listen port for the web UI has a sane default and is set.
 - Ensure that the working directory is sane and working.
@@ -21,23 +17,25 @@ Some tools will require additional configuration in order to get them working co
 - If possible, disable authentication (we provide CAS authentication and authorization).
 - Make sure the URLs will work sanely behind a reverse proxy. If they don't you may need to add nginx to the container.
 
-Create a new container image using the community one as a base
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+2. Create a new Docker container image using the community one as a base image
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 If you need to set the configurations at all (see above), you'll need to create a new Dockerfile that uses the community provided image as a base. Your new Dockerfile should deal with custom configurations and dependency installations.
 
 Some examples are available here:
 
 https://github.com/cyverse-de/dockerfiles/tree/master/shiny
+
 https://github.com/cyverse-de/dockerfiles/tree/master/rstudio-nginx/3.5.0
+
 https://github.com/cyverse-de/dockerfiles/tree/master/jupyter/lab/beta
 
 .. Note::
 
 	The rstudio-nginx one is the more complicated one out of the three
 
-Provide us the Dockerfile
-~~~~~~~~~~~~~~~~~~~~~~~~~
+3. Provide us the Dockerfile
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Since the images are built based on Dockerfile, make sure you test out the Dockerfile before providing that to us. Dockerfile must have Entrypoint
 
