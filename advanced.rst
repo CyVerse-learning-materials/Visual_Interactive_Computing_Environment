@@ -35,7 +35,7 @@ If you need to set the configurations at all (see above), you'll need to create 
 
 Since the images are built based using Dockerfile, make sure you test the Dockerfile before providing it to us. Dockerfile must have Entrypoint. If you cannot provide us the Dockerfile, you can request integration of the app by doing a tool request. 
 
-Once you have fulfilled all the above requirements, the next step is `building VICE tools and apps <>`_
+Once you have fulfilled all the above requirements, the next step is `building VICE tools and apps <https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/building.html>`_
 
 **Fix or improve this documentation:**
 
