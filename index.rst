@@ -19,10 +19,11 @@ This guide introduces VICE, a visual and interactive computing environment which
   4. Running the Rstudio App <quick-rstudio.rst>
   5. Running the Rshiny App <quick-rshiny.rst>
 	6. Adding VICE tools and apps <advanced.rst>
-  7. Data <data.rst>
-  8. Community <community.rst>
-  9. Workflow <workflow.rst>
-  10. FAQ <faq.rst>
+  7. Building VICE tools and apps <building.rst>
+  8. Data <data.rst>
+  9. Community <community.rst>
+  10. Workflow <workflow.rst>
+  11. FAQ <faq.rst>
 ..
 	#### Comment:This tutorial can have multiple pages. The Table of Contents assumes
 	you have an additional page called 'First Step' with content located in 'step1.rst'.
