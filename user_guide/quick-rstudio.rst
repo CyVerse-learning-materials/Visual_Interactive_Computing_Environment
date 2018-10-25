@@ -3,9 +3,9 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Rstudio App quick launch**
------------------------------
-Rstudio is a free, open source IDE (integrated development environment) for R. Its interface is organized so that the user can clearly view graphs, data table, R code and ouput at the same time. It also offers an Import-Wizard-like feature that allows users to import CSV, Excel, SAS (*.sas7bdat), SPSS (*.sav), and Stata (*.dta) files into R without having to write the code to do so.
+**Starting RStudio App**
+------------------------
+RStudio is a free, open source IDE (integrated development environment) for R. Its interface is organized so that the user can clearly view graphs, data table, R code and ouput at the same time. It also offers an Import-Wizard-like feature that allows users to import CSV, Excel, SAS (*.sas7bdat), SPSS (*.sav), and Stata (*.dta) files into R without having to write the code to do so.
 
 1. Running Rstudio App
 ======================
@@ -65,35 +65,35 @@ Cancel your analysis by clicking the Analysis window, then select the Rshiny ana
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
+.. |CyVerse logo| image:: ../img/cyverse_rgb.png
     :width: 500
     :height: 100
 .. _CyVerse logo: http://learning.cyverse.org/
-.. |Home_Icon| image:: ./img/homeicon.png
+.. |Home_Icon| image:: ../img/homeicon.png
     :width: 25
     :height: 25
-.. |rstudio1-1| image:: ./img/vice/rstudio/rstudio1-1.png
+.. |rstudio1-1| image:: ../img/vice/rstudio/rstudio1-1.png
 	:width: 700
 	:height: 400
-.. |rstudio1-2| image:: ./img/vice/rstudio/rstudio1-2.png
+.. |rstudio1-2| image:: ../img/vice/rstudio/rstudio1-2.png
 	:width: 700
 	:height: 400
-.. |rstudio1-2.5| image:: ./img/vice/rstudio/rstudio1-2.5.png
+.. |rstudio1-2.5| image:: ../img/vice/rstudio/rstudio1-2.5.png
 	:width: 700
 	:height: 400
-.. |rstudio1-3| image:: ./img/vice/rstudio/rstudio1-3.png
+.. |rstudio1-3| image:: ../img/vice/rstudio/rstudio1-3.png
 	:width: 700
 	:height: 400
-.. |rstudio1-4| image:: ./img/vice/rstudio/rstudio1-4.png
+.. |rstudio1-4| image:: ../img/vice/rstudio/rstudio1-4.png
 	:width: 700
 	:height: 400
-.. |rstudio1-5| image:: ./img/vice/rstudio/rstudio1-5.png
+.. |rstudio1-5| image:: ../img/vice/rstudio/rstudio1-5.png
 	:width: 700
 	:height: 400
-.. |rstudio1-6| image:: ./img/vice/rstudio/rstudio1-6.png
+.. |rstudio1-6| image:: ../img/vice/rstudio/rstudio1-6.png
 	:width: 700
 	:height: 400
-.. |rstudio1-7| image:: ./img/vice/rstudio/rstudio1-7.png
+.. |rstudio1-7| image:: ../img/vice/rstudio/rstudio1-7.png
 	:width: 700
 	:height: 400
 .. _Home_Icon: http://learning.cyverse.org/

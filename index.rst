@@ -3,58 +3,50 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-VICE Guide
-==========
+VICE Documentation
+==================
 
-This guide introduces VICE, a visual and interactive computing environment which is the latest feature in CyVerse's Discovery Environment (DE) for running interactive apps. This guide instructs users on how to do basic functions of VICE, e.g., how to launch interactive apps, build interactive apps etc.
-
-----
+This guide introduces VICE, a visual and interactive computing environment which is the latest feature in CyVerse's Discovery Environment (DE) for running interactive apps. This guide instructs users on how to do basic functions of VICE, e.g., how to launch interactive apps, run your analysis on interactive apps, build interactive apps etc.
 
 .. toctree::
-	:maxdepth: 2
+   :maxdepth: 1
+   :caption: Getting Started
 
-  1. About <about.rst>
-  2. VICE Applications <apptypes.rst>
-  3. Running the Jupyter Notebook App <quick-jupyter.rst>
-  4. Running the Rstudio App <quick-rstudio.rst>
-  5. Running the Rshiny App <quick-rshiny.rst>
-	6. Adding VICE tools and apps <advanced.rst>
-  7. Building VICE tools and apps <building.rst>
-  8. Data <data.rst>
-  9. Community <community.rst>
-  10. Workflow <workflow.rst>
-  11. FAQ <faq.rst>
+   getting_started/about
+   getting_started/prerequisites
+   getting_started/apptypes
+
+.. toctree::
+   :maxdepth: 1
+   :caption: User Guide
+
+   user_guide/quick-jupyter
+   user_guide/quick-rstudio
+   user_guide/quick-rshiny
+   user_guide/quick-ubuntu-desktop
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Developer Guide
+
+   developer_guide/workflow
+   developer_guide/adding
+   developer_guide/building
+   developer_guide/examples
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Getting Help
+
+   getting_help/faq
+   getting_help/bestpractices
+   getting_help/contact
+
 ..
 	#### Comment:This tutorial can have multiple pages. The Table of Contents assumes
 	you have an additional page called 'First Step' with content located in 'step1.rst'.
 	Copy step1.rst. step2.rst has slightly different formatting to end the document.
 	Edit these titles and filenames as needed ####
-
-
-Prerequisites
--------------
-
-
-Downloads, access, and services
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-*In order to use VICE, you will need access to the following services/software*
-
-..
-	#### comment: delete any row not needed in this table ####
-
-.. list-table::
-    :header-rows: 1
-
-    * - Prerequisite
-      - Preparation/Notes
-      - Link/Download
-    * - CyVerse account
-      - You will need a CyVerse account to complete this exercise
-      - `Register <https://user.cyverse.org/>`_
-    * - Discovery Environment access
-      - You will get access to Discovery Environment by default. Check the 'My Services' tab; if Discovery Environment is not listed, click the 'Available' tab, locate Discovery Environment and click the link to request access.  
-      - `CyVerse User Portal <https://user.cyverse.org/>`__
 
 ----
 
