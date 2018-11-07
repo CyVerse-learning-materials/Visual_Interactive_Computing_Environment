@@ -69,16 +69,16 @@ Once you open a new notebook, you can start writing your code, put markdown text
 
 |jupyter1-6|
 
-6. Complet and Save Outputs
+6. Complete and Save Outputs
 ===========================
 
-After finishing your analysis, you can save outputs to data store by clicking the Analysis window, then select the sshiny analysis that you are running and then selecting `Complete and Save Outputs` under "Analyses" button.
+After finishing your analysis, you can save outputs to data store by clicking the Analysis window, then select the VICE analysis that you are running and select `Complete and Save Outputs` under the "Analyses" button.
 
 |jupyter1-7|
 
 |jupyter1-8|
 
-After you had done this, you can find the outputs that you generated (if any) in the analysis of the JupyterLab.
+After you had done this, you can find the outputs that you generated (if any) in the analysis folder of the JupyterLab.
 
 .. Warning::
 
