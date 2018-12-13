@@ -67,8 +67,6 @@ In the Rstudio script section, you can write your code, generate plots, save plo
 
 Complete your analysis by clicking the Analysis window, then select the rstudio analysis and click '*Complete and Save Outputs*' option under "Analyses" button.
 
-.. Note::
-  You can also select '*Cancel*' instead of '*Complete and Save Outputs*', and this will terminate the app, but it will not save any output or progress.
 |rstudio3-10|
 
 After you had done this, you can find the outputs that you generated (if any) using the same steps as before, but this time selecting '*Go To Output Folder*'.
