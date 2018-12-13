@@ -8,6 +8,9 @@
 
 |flow|
 
+\*  https://www.cyverse.org/contact
+\*\* https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/developer_guide/building.html
+
 ----
 
 **Fix or improve this documentation**
@@ -29,5 +32,5 @@
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
 .. |flow| image:: ../img/flow.png
-    :width: 500
+    :width: 700
     :height: 700

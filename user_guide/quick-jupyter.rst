@@ -77,8 +77,6 @@ Once you open a new notebook, you can start writing your code, put markdown text
 
 After finishing your analysis, you can save outputs to data store by clicking the Analysis window, then select the VICE analysis that you are running and select `Complete and Save Outputs` under the "Analyses" button.
 
-.. Note::
-  You can also select '*Cancel*' instead of '*Complete and Save Outputs*', and this will terminate the app, but it will not save any output or progress.
 
 |jupyter2-7|
 
