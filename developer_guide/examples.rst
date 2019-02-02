@@ -6,6 +6,9 @@
 **VICE app examples**
 ---------------------
 
+Go to https://cyverse.run to see public VICE apps or apps that you've integrated or had shared with your user name.
+
+Geospatial VICE Apps: https://github.com/cyverse-gis/dockerfiles
 
 ----
 
