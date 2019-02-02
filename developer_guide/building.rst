@@ -87,7 +87,7 @@ To get the default working directory for the container run this:
 
 Make a note of the working directory, you'll need it later when putting together the JSON for the tool and app.
 
-4. Construct the Tool JSON
+4. Construct the Tool JSON (No longer required with integrated tool in DE)
 ==========================
 
 Next you'll need to create JSON for the new tool. Below is the example of tool Json for JupyterLab VICE app. The JupyterLab example is chosen here since it uses all of the bits of information that you gathered above:
