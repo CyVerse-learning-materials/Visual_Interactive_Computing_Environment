@@ -23,6 +23,8 @@ You'll need to figure out the port that the tool uses to present its web interfa
 
 It's possible that multiple or no ports are listed. If that's the case you'll need to refer to the documentation for the tool to figure out the port it uses. Make a note of the port, you'll need it later when putting together the JSON for the tool.
 
+**It is strongly recommended you do not set the `bind to host` as `true` for your added ports when creating a new App**
+
 2. Get the UID of the tool's user
 =================================
 
