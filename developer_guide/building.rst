@@ -40,7 +40,7 @@ Here are the tools and their ports for common tools such as Jupyter notebook, Rs
 +------------+---------+
 
 3. Get the UID of the tool's user
-=================================
+===================================
 
 You'll need to figure out the ``UID`` of the of the user the app runs as. Many tools will start up as root and then use another user for the actual process, so it might take a little investigation to figure this out. To start this figure out the user that the container is configured to start up using:
 
@@ -155,6 +155,10 @@ You'll see a Add Tool form like this
 - ``Min Disk Space`` is the minimum disk space. Eg. 266 GB
 
 - ``Container Ports`` must be a list of maps with only a single entry. The key in that entry must be container_port and should be filled in with the number value you gathered above.
+
+.. warning:: 
+
+  It is strongly recommended you do not set the `bind to host` as `true` for your added ports when creating a new App**
 
 5. Creating VICE app for your tool
 ==================================
