@@ -12,42 +12,42 @@ List of VICE Apps in DE
     * - Name
       - Description
       - Type
-      - Port
+      - Dockerfile
       - Quick Launch
     * - `JupyterLab-0.0.3 <../user_guide/quick-jupyter.html>`_
       - JupyterLab base app in DE
       - Jupyter
-      - 8888
+      - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/jupyter/lab/latest/Dockerfile>`_
       - |jupyter logo|_
     * - `JupyterLab-Qiime2-2018.11 <https://cyverse-jupyter-qiime2.readthedocs-hosted.com>`_
       - JupyterLab based QIIME app in DE
       - Jupyter
-      - 8888
+      - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/qiime2/2018.11_bash/Dockerfile>`
       - |qiime logo|_
     * - `rstudio-3.5.0 <../user_guide/quick-rstudio.html>`_
       - Rstudio base app in DE
       - Rstudio
-      - 80
+      - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/rstudio-nginx/3.5.2/Dockerfile>`_
       - |rstudio logo|_
     * - Rstudio-Ballgown
       - JupyterLab base app in DE
       - Rstudio
-      - 80
+      - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/bioconductor/Dockerfile>`_
       - |rstudio ballgown logo|_
     * - Rstudio-ClusterProfiler-3.8
       - Rstudio based ClusterProfiler app in DE
       - Rstudio
-      - 80
+      - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/clusterprofiler/Dockerfile>`_
       - |rstudio cluster logo|_
     * - Rstudio-TSIS-1.0
       - Rstudio based TSIS app in DE
       - Rstudio
-      - 80
+      - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/tsis/Dockerfile>`_
       - |rstudio tsis logo|_
     * - `shiny-0.10.2.2 <../user_guide/quick-rshiny.html>`_
       - Shiny base app in DE
       - Shiny
-      - 3838
+      - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/shiny/latest/Dockerfile>`_
       - |shiny logo|_
 
 .. Tip::
