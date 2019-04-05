@@ -3,8 +3,8 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Guidelines for adding VICE tools**
-------------------------------------
+**Guidelines for adding VICE tools in DE**
+------------------------------------------
 
 Adding VICE tools in DE is different from regular DE tools. Currently the process is not automated and so for now, you'll have to follow certain guidelines which are listed below. Before you add your VICE tools..
 
@@ -21,15 +21,17 @@ Some tools will require additional configuration in order to get them working co
 
 2. Use community images as a base image
 
-If you need to set the configurations at all (see above), you'll need to create a new Dockerfile that uses the community-provided image as a base. Your new Dockerfile should deal with custom configurations and dependency installations. Some examples are available here:
+If you need to set the configurations at all (see above), you'll need to create a new Dockerfile that uses the community-provided image as a base. Your new Dockerfile should deal with custom configurations and dependency installations. 
 
-* https://github.com/cyverse-de/dockerfiles/tree/master/shiny
-* https://github.com/cyverse-de/dockerfiles/tree/master/rstudio-nginx/3.5.0
-* https://github.com/cyverse-de/dockerfiles/tree/master/jupyter/lab/beta
+- Jupyter-Lab (https://hub.docker.com/r/discoenv/jupyter-lab)
+- Rstudio (https://hub.docker.com/r/discoenv/rstudio-nginx)
+- Shiny (https://hub.docker.com/r/discoenv/shiny)
 
-.. Note::
+See some examples of VICE apps that uses community images as base image in the Dockerfile
 
-	The rstudio-nginx example is the more complicated among the three above.
+- MMTF (https://github.com/sbl-sdsc/mmtf-genomics/blob/master/vice/Dockerfile)
+- Rstudio-Bioconductor (https://github.com/cyverse/docker-builds/blob/master/rstudio-bioconductor/Dockerfile)
+- Patmatch (https://github.com/fomightez/patmatch-binder/tree/master/vice)
 
 3. Test your Docker image
 

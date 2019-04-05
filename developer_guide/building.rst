@@ -8,10 +8,15 @@
 
 Once you build your Docker image (following the guidelines), the next step is building the VICE tools. For this you'll need a Docker image, port number, User ID and Working directory.
 
-1. Get the port
+1. Docker image
 ===============
 
-You'll need to figure out the port that the tool uses to present its web interface. You can find the ports that a container image exposes with this command 
+The Docker image of your tool is mandatory and it should be available on public registries such as `Dockerhub <https://hub.docker.com>`_ or `quay.io <http://quay.io>`_. Alternatively you can provide us the Dockerfile and we will build the Docker image for you. If there is no Dockerfile for the tool that you are interested in, then tell us what tool you are interesting in making us as VICE app.
+
+2. Get the port
+===============
+
+You'll need to figure out the port that the tool uses to present its web interface. This is mandatory and you can integrate a tool without knowing the port it runs on. If you don't know, you can find the ports that a container image exposes with this command
 
 .. code-block:: bash
 
@@ -19,11 +24,22 @@ You'll need to figure out the port that the tool uses to present its web interfa
 
 .. Note ::
 
-  Replace `<image-name>:<image-tag>` with the correct Docker image
+  Replace `<image-name>:<image-tag>` with the your Docker image
 
-It's possible that multiple or no ports are listed. If that's the case you'll need to refer to the documentation for the tool to figure out the port it uses. Make a note of the port, you'll need it later when putting together the JSON for the tool.
+It's possible that multiple or no ports are listed. If that's the case you'll need to refer to the documentation for the tool to figure out the port it uses. Make a note of the port, you'll need it later when integrating the tool in DE.
+Here are the tools and their ports for common tools such as Jupyter notebook, Rstudio and Shiny. If you are developing any applications based on these tools, you can use these ports while integrating the tool in DE.
 
-2. Get the UID of the tool's user
++------------+---------+
+| Type       | Port    |
++------------+---------+
+| Jupyter    | 8888    |
++------------+---------+
+| Rstudio    | 80      |
++------------+---------+
+| Shiny      | 3838    |
++------------+---------+
+
+3. Get the UID of the tool's user
 =================================
 
 You'll need to figure out the ``UID`` of the of the user the app runs as. Many tools will start up as root and then use another user for the actual process, so it might take a little investigation to figure this out. To start this figure out the user that the container is configured to start up using:
@@ -32,15 +48,17 @@ You'll need to figure out the ``UID`` of the of the user the app runs as. Many t
 
   $ docker inspect <image-name>:<image-tag> -f '{{.ContainerConfig.User}}'
 
-If you're lucky that will contain the numerical UID of the user. In that case you can make a note of the UID and move on. Otherwise you have more work to do.
-
-The User field can also be empty or set to the username. If its empty, then the user is ``root``. If it's a username then you'll need to get the ``UID`` from inside the container.
+If you're lucky that will contain the numerical UID of the user. In that case you can make a note of the UID and move on. Otherwise you have more work to do. The User field can also be empty or set to the username. If its empty, then the user is ``root``. If it's a username then you'll need to get the ``UID`` from inside the container.
 
 To get the ``UID`` for a username run this:
 
 .. code-block:: bash
 
   $ docker run --rm -it --entrypoint "id" <image-name>:<image-tag> -u <username>
+
+.. Note ::
+
+  Replace `<image-name>:<image-tag>` with the your Docker image
 
 If the User field is empty or ``root``, you need to be sure that the process inside the container actually runs as ``root``. There are a few ways to check this:
 
@@ -60,9 +78,13 @@ If the User field is empty or ``root``, you need to be sure that the process ins
 
 * Alternatively check the documentation for the tool.
 
-Make a note of the UID, you'll need it later when putting together the JSON for the tool and app.
+.. Note::
 
-3. Get the working directory
+  The UID of the tool can be empty but setting the UID will make sure that the user can write to the input files in the container.
+
+Make a note of the UID, you'll need it later when putting together the JSON for the tool and app. 
+
+4. Get the working directory
 ============================
 
 You'll need the working directory for the process in the tool container, which may not correspond to the default working directory for the container.
@@ -83,92 +105,61 @@ To get the default working directory for the container run this:
 
 .. Important ::
 
-  Keep in mind that the working directory is where the input files will be made available.
+  Keep in mind that the working directory is where the input files will be made available. Similar to UID, working directory is not mandatory but given jupyter lab's default behavior of showing things in subdirectories of the place it's started. So if you're loading notebooks and data from the Datastore, you want the working directory (where those files are loaded into the container) to be in the right spot
 
 Make a note of the working directory, you'll need it later when putting together the JSON for the tool and app.
 
-4. Construct the Tool JSON
-==========================
+5. Add Tool in DE 
+=================
 
-Next you'll need to create JSON for the new tool. Below is the example of tool Json for JupyterLab VICE app. The JupyterLab example is chosen here since it uses all of the bits of information that you gathered above:
+The final step in building the VICE tool is to fill up the "Add Tool" form in DE.
 
-.. code-block :: bash
+Brifely here are the following steps.
 
-  {"tools": [{
-        "id" : "2F76C33D-0F70-4107-A2A2-3177468CC829",
-        "description" : "Jupyter Lab based on jupyter/datascience-notebook",
-        "interactive" : true,
-        "name" : "jupyter-lab-datascience-notebook",
-        "type" : "interactive",
-        "restricted" : false,
-        "container" : {
-            "min_cpu_cores" : 0.1,
-            "max_cpu_cores" : 2.0,
-            "memory_limit" : 4000000000,
-            "interactive_apps" : {
-                "image" : "discoenv/cas-proxy",
-                "name" : "cas-proxy",
-                "cas_url" : "https://auth.iplantcollaborative.org/cas4/",
-                "cas_validate" : "validate"
-            },
-            "container_ports" : [{
-                "container_port" : 8888
-            }],
-            "network_mode" : "bridge",
-            "skip_tmp_mount" : true,
-            "working_directory" : "/home/jovyan/",
-            "image" : {
-                "name" : "test/jupyter-lab",
-                "tag" : "beta"
-            },
-            "uid" : 1000
-        },
-        "version" : "0.0.1",
-        "implementation" : {
-            "implementor" : "John Wregglesworth",
-            "implementor_email" : "wregglej@cyverse.org",
-            "test" : {
-                "input_files" : [],
-                "output_files" : []
-            }
-        }
-   }]}
+* Log in CyVerse `Discovery Environment <https://de.cyverse.org/de/>`_
 
-- ``id`` is a string and must be a UUID. A value can be generated at https://www.uuidgenerator.net/.
+* Click on the Apps window and click Manage Tools button on the far right hand side of the window
 
-- ``description`` is a string and must be set to the desired description of the tool. This will appear in the DE's tool listing dialog.
+* Click on Tools button and then finally Add Tools button
 
-- ``name`` is a string and must be set ot the desired name of the tool. This will appear in the DE's tool listing dialog.
+You'll see a Add Tool form like this
 
-- ``container_ports`` must be a list of maps with only a single entry. The key in that entry must be container_port and should be filled in with the number value you gathered in a previous section.
+|add-tools|
 
-- ``container.working_directory`` is a string and must be filled in with the value you gathered in a previous section. The default is ``/.``
+- ``Tool name`` is the name of the tool. This will appear in the DE's tool listing dialog. This is mandatory field. Eg. "jupyterlab-circos"
 
-- ``container.image.name`` is a string and must be the image specifier minus the image tag. The image must exist on Dockerhub.
+- ``description`` is a brief description of the tool. This will appear in the DE's tool listing dialog. Eg. "Circos is a software package for visualizing data and information that was created by Martin Krzywinski"
 
-- ``container.image.tag`` is a string and must be the image tag.
+- ``version`` is the version of the tool. This will appear in the DE's tool listing dialog. This is mandatory field. Eg. "1.0"
 
-- ``container.uid`` is a number and must be filled in with the value you gathered in a previous section.
+- ``Image name`` is the name of the image specifier minus the image tag. The image must exist on Dockerhub or quay.io. This is mandatory field. E.g "fomightez/circos-vice"
 
-- ``version`` is a string and must be filled in with the version of the tool. This will appear in the DE's tool listing dialog.
+- ``Tag`` is the image tag. If you don't specify the tag, the DE will look for the "latest" tag which is the default tag.
 
-- ``implementation.implementor`` is a string and must be filled in with your name or the name of the organization you work for.
+- ``Docker Hub URL`` is the url of the image on the Dockerhub. E.g https://hub.docker.com/r/fomightez/circos-vice
 
-- ``implementation.implementor_email`` is a string and must be filled in with your email or the email address of the organization you work for.
+- ``Type`` is the type of Tool. For VICE apps, chose "interactive".
 
-- ``implementation.test`` is a map and must exist. You can get away with setting exactly like it is in the example above.
+- ``OSG Image Path`` is path of the image on the OSG. You can skip this for interactive tools.
 
-Leave the rest of the fields as they are and then you can request a new tool to be added in DE by filling up Tool request form in DE - https://wiki.cyverse.org/wiki/display/DEmanual/Adding+or+Requesting+a+New+Tool
+- ``Entrypoint`` is the Entrypoint for your tool. Entrypoint should be present in the Docker image and if not, you should specify it here.
 
-.. Note ::
+- ``Working Directory`` this is the working directory of the tool and must be filled in with the value you gathered above. E.g /home/jovyan/vice
 
-  Copy and past the tool JSON in the "Enter any other information that might be useful" box:
+- ``UID`` is a number and must be filled in with the value you gathered from above. E.g 1000
+
+- ``Max CPU Cores`` is the number of cores for your tool. Eg. 4
+
+- ``Memory Limit`` is the memory for your tool. Eg. 16 GB
+
+- ``Min Disk Space`` is the minimum disk space. Eg. 266 GB
+
+- ``Container Ports`` must be a list of maps with only a single entry. The key in that entry must be container_port and should be filled in with the number value you gathered above.
 
 5. Creating VICE app for your tool
 ==================================
 
 To create a new app, follow the instructions in `here <https://wiki.cyverse.org/wiki/display/DEmanual/Designing+the+Interface>`_
-
 
 ----
 
@@ -181,6 +172,8 @@ To create a new app, follow the instructions in `here <https://wiki.cyverse.org/
 
   |Home_Icon|_
   `Learning Center Home <http://learning.cyverse.org/>`_
+
+.. |add-tools| image:: ../img/add-tools.png
 
 .. |CyVerse logo| image:: ../img/cyverse_rgb.png
     :width: 500

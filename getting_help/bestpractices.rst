@@ -6,7 +6,7 @@
 **VICE Best practices**
 -----------------------
 
-1. Make sure the Doker image is small
+1. Make sure the Docker image is minimal. Larger images take longer to transfer and load.
 
 ----
 

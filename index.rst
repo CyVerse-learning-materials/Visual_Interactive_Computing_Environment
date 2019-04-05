@@ -32,7 +32,12 @@ This guide introduces VICE, a visual and interactive computing environment which
    developer_guide/workflow
    developer_guide/adding
    developer_guide/building
-   developer_guide/examples
+
+.. toctree::
+   :maxdepth: 1
+   :caption: VICE Apps
+   
+   vice_apps/examples
 
 .. toctree::
    :maxdepth: 1
@@ -52,7 +57,7 @@ This guide introduces VICE, a visual and interactive computing environment which
 
 **Fix or improve this documentation**
 
-- On Github: `Repo link <https://github.com/CyVerse-learning-materials/sciapps_guide>`_
+- On Github: `Repo link <https://github.com/CyVerse-learning-materials/Visual_Interactive_Computing_Environment>`_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
