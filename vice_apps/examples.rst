@@ -22,7 +22,7 @@ List of VICE Apps in DE
     * - `JupyterLab-Qiime2-2018.11 <https://cyverse-jupyter-qiime2.readthedocs-hosted.com>`_
       - JupyterLab based QIIME app in DE
       - Jupyter
-      - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/qiime2/2018.11_bash/Dockerfile>`
+      - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/qiime2/2018.11_bash/Dockerfile>`_
       - |qiime logo|_
     * - `rstudio-3.5.0 <../user_guide/quick-rstudio.html>`_
       - Rstudio base app in DE
