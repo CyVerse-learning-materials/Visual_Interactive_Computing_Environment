@@ -6,7 +6,9 @@
 **VICE Best practices**
 -----------------------
 
-1. Make sure the Docker image is minimal. Larger images take longer to transfer and load.
+1. Smaller docker containers are better. Larger images take longer to transfer and load.
+2. Use our base images for complex programs that require additional configuration files other than the `Dockerfile`. 
+3. Create robust documentation with as much metadata as possible. 
 
 ----
 
