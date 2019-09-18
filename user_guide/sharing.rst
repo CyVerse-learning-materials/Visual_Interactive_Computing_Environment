@@ -1,5 +1,10 @@
-*Sharing VICE apps with collaborators*
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|CyVerse logo|_
+
+|Home_Icon|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
+**Sharing VICE apps with collaborators**
+----------------------------------------
 
 You can share your VICE workspace with colleagues (whith a CyVerse account) who can see and edit your notebooks, logs, and outputs. 
 
