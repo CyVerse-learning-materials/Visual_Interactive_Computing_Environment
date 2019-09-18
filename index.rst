@@ -52,6 +52,7 @@ This guide introduces VICE, a visual and interactive computing environment which
 
    getting_help/faq
    getting_help/bestpractices
+   getting_help/tool_troubleshooting
    getting_help/contact
 
 ..
