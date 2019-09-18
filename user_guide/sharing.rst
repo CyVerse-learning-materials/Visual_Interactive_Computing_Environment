@@ -58,6 +58,18 @@ You can share your VICE workspace with colleagues (whith a CyVerse account) who 
     :width: 25
     :height: 25
 
+|Home_Icon|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
+.. |CyVerse logo| image:: ../img/cyverse_rgb.png
+    :width: 500
+    :height: 100
+.. _CyVerse logo: http://learning.cyverse.org/
+.. |Home_Icon| image:: ../img/homeicon.png
+    :width: 25
+    :height: 25
+.. _Home_Icon: http://learning.cyverse.org/
+
 .. |vice-share-1| image:: ../img/vice-share-1.png
     :width: 750
 	
