@@ -3,8 +3,15 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-List of VICE Apps in DE 
+VICE Apps in DE 
 -----------------------
+
+.. Tip::
+
+	Go to https://cyverse.run to see public VICE apps or apps that you've integrated or had shared with your user name.
+
+To see a list of Geospatial VICE Apps: https://github.com/cyverse-gis/dockerfiles
+
 
 .. list-table::
     :header-rows: 1
@@ -50,11 +57,7 @@ List of VICE Apps in DE
       - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/shiny/latest/Dockerfile>`_
       - |shiny logo|_
 
-.. Tip::
 
-	Go to https://cyverse.run to see public VICE apps or apps that you've integrated or had shared with your user name.
-
-To see a list of Geospatial VICE Apps: https://github.com/cyverse-gis/dockerfiles
 
 ----
 
