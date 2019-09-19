@@ -70,11 +70,21 @@ Creating VICE app for your tool
 
 To create a new app, follow the instructions in `here <https://wiki.cyverse.org/wiki/display/DEmanual/Designing+the+Interface>`_
 
+.. Important:: 
+
+  For VICE apps, be sure to check the box "Do not pass this argument to the command line" for each option you add (for VICE, this is usually just input files and folders. 
+  
+  |vice-do-not-pass|
+  
+  
+
+
+
 ----
 
 **Fix or improve this documentation:**
 
-- On Github: `Repo link <https://github.com/CyVerse-learning-materials/sciapps_guide>`_
+- On Github: `Repo link <https://github.com/CyVerse-learning-materials/Visual_Interactive_Computing_Environment/blob/master/developer_guide/building.rst>`_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
@@ -92,3 +102,6 @@ To create a new app, follow the instructions in `here <https://wiki.cyverse.org/
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
+
+.. |vice-do-not-pass| image:: ../img/do_not_pass.png
+    :width: 750
