@@ -30,4 +30,4 @@
 .. _Home_Icon: http://learning.cyverse.org/
 .. |flow| image:: ../img/flow_new.png
     :width: 700
-    :height: 700
+    :height: 400
