@@ -28,6 +28,6 @@
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
-.. |flow| image:: ../img/flow.png
+.. |flow| image:: ../img/flow_new.png
     :width: 700
     :height: 700
