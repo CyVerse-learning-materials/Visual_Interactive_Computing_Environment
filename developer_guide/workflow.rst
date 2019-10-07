@@ -6,6 +6,10 @@
 **Workflow**
 ------------
 
+CyVerse hosts many popular data science applications, e.g. Jupyter Lab, RStudio, and Shiny. These applications can be started in the Discovery Environment, and the researcher can install additional packages to the running application.
+
+In cases where the installation may be complex, long, or require additional system administrator level access, the researcher can use the existing CyVerse container as a base image for their own new container. The researcher can add their own packages and then deploy the new app in the Discovery Environment. 
+
 |flow|
 
 ----
