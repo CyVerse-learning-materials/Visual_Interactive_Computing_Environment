@@ -83,6 +83,9 @@ To see a list of Geospatial VICE Apps: https://github.com/cyverse-gis/dockerfile
 .. |rstudio ballgown logo| image:: ../img/vice_badge.png
 .. _rstudio ballgown logo: https://de.cyverse.org/de/?type=apps&app-id=657bc4dc-2e32-11e9-bb10-008cfa5ae621&system-id=de
 
+.. |rstudio snapatac logo| image:: ../img/vice_badge.png
+.. _rstudio snapatac logo: https://de.cyverse.org/de/?type=apps&app-id=657bc4dc-2e32-11e9-bb10-008cfa5ae621&system-id=de
+
 .. |rstudio cluster logo| image:: ../img/vice_badge.png
 .. _rstudio cluster logo: https://de.cyverse.org/de/?type=apps&app-id=aade92d8-f733-11e8-8a98-008cfa5ae621&system-id=de
 
