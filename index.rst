@@ -32,7 +32,6 @@ This guide introduces VICE, a visual and interactive computing environment which
    user_guide/quick-rstudio
    user_guide/quick-rshiny
    user_guide/sharing
-   user_guide/quick-ubuntu-desktop
 
 .. toctree::
    :maxdepth: 1
