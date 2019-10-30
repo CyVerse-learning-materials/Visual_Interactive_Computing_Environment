@@ -23,9 +23,9 @@ Some tools will require additional configuration in order to get them working co
 
 If you need to set the configurations at all (see above), you'll need to create a new Dockerfile that uses the community-provided image as a base. Your new Dockerfile should deal with custom configurations and dependency installations. 
 
-- Jupyter-Lab (https://hub.docker.com/r/discoenv/jupyter-lab)
-- Rstudio (https://hub.docker.com/r/discoenv/rstudio-nginx)
-- Shiny (https://hub.docker.com/r/discoenv/shiny)
+- Jupyter Lab (https://hub.docker.com/r/cyversevice/jupyterlab-base)
+- RStudio Verse (https://hub.docker.com/r/cyversevice/rstudio-verse)
+- Shiny Verse (https://hub.docker.com/r/cyversevice/shiny-verse)
 
 See some examples of VICE apps that uses community images as base image in the Dockerfile
 
