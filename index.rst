@@ -77,7 +77,7 @@ This guide introduces VICE, a visual and interactive computing environment which
 .. |CyVerse_logo| image:: ./img/cyverse_cmyk.png
     :width: 500
     :height: 100
-.. _CyVerse_logo: http://learning.cyverse.org/
+.. _CyVerse_logo: https://cyverse.org/
 
 .. |Home_Icon| image:: ./img/homeicon.png
     :width: 25
