@@ -21,12 +21,12 @@ To see the most current list of VICE Apps: https://github.com/cyverse-vice/
       - Type
       - Dockerfile
       - Quick Launch
-    * - `RStudio Geospatial <https://github.com/cyverse-vice/rstudio-geospatial/>`_
+    * - `RStudio Geospatial <https://hub.docker.com/r/cyversevice/rstudio-geospatial/>`_
       - Rocker RStudio Geospatial latest
       - RStudio
       - `Dockerfile <https://github.com/cyverse-vice/rstudio-geospatial/latest/>`_
       - |rstudio-geospatial-latest|_
-    * - `Jupyter Lab SciPy <https://github.com/cyverse-vice/jupyterlab-scipy/>`_
+    * - `Jupyter Lab SciPy <https://hub.docker.com/r/cyversevice/jupyterlab-scipy/>`_
       - Jupyter Lab w/ SciPy
       - Jupyter
       - `Dockerfile <https://github.com/cyverse-vice/jupyterlab-scipy/latest/>`_
