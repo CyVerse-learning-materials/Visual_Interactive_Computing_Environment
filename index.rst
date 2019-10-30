@@ -1,6 +1,6 @@
 .. include:: cyverse_rst_defined_substitutions.txt
 
-|CyVerse logo|
+|CyVerse_logo|
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
@@ -74,10 +74,10 @@ This guide introduces VICE, a visual and interactive computing environment which
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |CyVerse logo| image:: ./img/cyverse_cmyk.png
+.. |CyVerse_logo| image:: ./img/cyverse_cmyk.png
     :width: 500
     :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
+.. _CyVerse_logo: http://learning.cyverse.org/
 
 .. |Home_Icon| image:: ./img/homeicon.png
     :width: 25
