@@ -86,7 +86,7 @@ After you had done this, you can find the outputs that you generated (if any) us
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |CyVerse_logo| image:: ../img/cyverse_cymk.png
+.. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
     :width: 500
     :height: 100
 .. _CyVerse_logo: http://cyverse.org/
