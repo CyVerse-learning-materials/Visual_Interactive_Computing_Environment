@@ -22,7 +22,7 @@ To see the most current list of VICE Apps: https://github.com/cyverse-vice/
       - Dockerfile
       - Quick Launch
     * - `RStudio Geospatial <https://github.com/cyverse-vice/rstudio-geospatial/>`_
-      - Rocker RStudio Geospatial `latest`
+      - Rocker RStudio Geospatial latest
       - RStudio
       - `Dockerfile <https://github.com/cyverse-vice/rstudio-geospatial/latest/>`_
       - |rstudio-geospatial-latest|_
