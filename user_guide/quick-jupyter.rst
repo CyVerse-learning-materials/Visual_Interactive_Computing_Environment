@@ -1,15 +1,15 @@
-|CyVerse logo|_
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Starting JupyterLab App**
----------------------------
+**Jupyter Lab**
+---------------
 
 First log-in `CyVerse DE <https://de.cyverse.org/de/>`_
 
-1. Search JupyterLab App
-========================
+1. Search Jupyter Lab
+=====================
 
 After you login to DE, open the Apps window and search the JupyterLab with key word `Jupyter` or `JupyterLab`.
 
@@ -102,13 +102,16 @@ Now you can run SQL queries inside a Jupyter-lab notebook. Here is a quick launc
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |CyVerse logo| image:: ../img/cyverse_rgb.png
+.. |CyVerse_logo| image:: ../img/cyverse_rgb.png
     :width: 500
     :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
+.. _CyVerse_logo: https://cyverse.org/
+
 .. |Home_Icon| image:: ../img/homeicon.png
     :width: 25
     :height: 25
+.. _Home_Icon: http://learning.cyverse.org 
+
 .. |jupyter2-1| image:: ../img/vice/jupyter/jupyter2-1.png
 	:width: 700
 	:height: 400
