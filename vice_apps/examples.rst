@@ -10,7 +10,7 @@ VICE Apps in DE
 
 	Go to https://cyverse.run to see public VICE apps or apps that you've integrated or had shared with your user name.
 
-To see a list of Geospatial VICE Apps: https://github.com/cyverse-gis/dockerfiles
+To see the most current list of VICE Apps: https://github.com/cyverse-vice/
 
 
 .. list-table::
@@ -21,6 +21,11 @@ To see a list of Geospatial VICE Apps: https://github.com/cyverse-gis/dockerfile
       - Type
       - Dockerfile
       - Quick Launch
+    * - `RStudio Geospatial Latest <https://github.com/cyverse-vice/rstudio-geospatial/>`_
+      - Rocker R Studio Geospatial
+      - RStudio
+      - `Dockerfile <https://github.com/cyverse-vice/rstudio-geospatial/latest/>`_
+      - |rstudio-geospatial-latest|_
     * - `JupyterLab-0.0.3 <../user_guide/quick-jupyter.html>`_
       - JupyterLab base app in DE
       - Jupyter
@@ -57,8 +62,6 @@ To see a list of Geospatial VICE Apps: https://github.com/cyverse-gis/dockerfile
       - `Dockerfile <https://github.com/cyverse/docker-builds/blob/master/vice/dockerfiles/shiny/latest/Dockerfile>`_
       - |shiny logo|_
 
-
-
 ----
 
 **Fix or improve this documentation**
@@ -68,32 +71,11 @@ To see a list of Geospatial VICE Apps: https://github.com/cyverse-gis/dockerfile
 
 ----
 
+.. |rstudio-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _rstudio-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=12f25023-b6b1-4f23-bbcc-49f0295da8c4&app-id=07e2b2e6-becd-11e9-b524-008cfa5ae621
+
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
-
-.. |jupyter logo| image:: ../img/vice_badge.png
-.. _jupyter logo: https://de.cyverse.org/de/?type=apps&app-id=34f2c392-9a8a-11e8-9c8e-008cfa5ae621&system-id=de
-
-.. |qiime logo| image:: ../img/vice_badge.png
-.. _qiime logo: https://de.cyverse.org/de/?type=apps&app-id=827928ce-5649-11e9-8f31-008cfa5ae621&system-id=de
-
-.. |rstudio logo| image:: ../img/vice_badge.png
-.. _rstudio logo: https://de.cyverse.org/de/?type=apps&app-id=af14e76b-83bf-4a8a-a475-9d686e1bb868&system-id=de
-
-.. |rstudio ballgown logo| image:: ../img/vice_badge.png
-.. _rstudio ballgown logo: https://de.cyverse.org/de/?type=apps&app-id=657bc4dc-2e32-11e9-bb10-008cfa5ae621&system-id=de
-
-.. |rstudio snapatac logo| image:: ../img/vice_badge.png
-.. _rstudio snapatac logo: https://de.cyverse.org/de/?type=apps&app-id=657bc4dc-2e32-11e9-bb10-008cfa5ae621&system-id=de
-
-.. |rstudio cluster logo| image:: ../img/vice_badge.png
-.. _rstudio cluster logo: https://de.cyverse.org/de/?type=apps&app-id=aade92d8-f733-11e8-8a98-008cfa5ae621&system-id=de
-
-.. |rstudio tsis logo| image:: ../img/vice_badge.png
-.. _rstudio tsis logo: https://de.cyverse.org/de/?type=apps&app-id=60d7f4f0-fd9f-11e8-9781-008cfa5ae621&system-id=de
-
-.. |shiny logo| image:: ../img/vice_badge.png
-.. _shiny logo: https://de.cyverse.org/de/?type=apps&app-id=266f6028-205b-45c9-b1c3-11f9be9dcfe5&system-id=de
 
 .. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
     :width: 500
