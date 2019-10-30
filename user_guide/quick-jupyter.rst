@@ -6,25 +6,25 @@
 **Jupyter Lab**
 ---------------
 
+1. Search a Jupyter Lab
+=======================
+
 First log-in `CyVerse DE <https://de.cyverse.org/de/>`_
 
-1. Search Jupyter Lab
-=====================
-
-After you login to DE, open the Apps window and search the JupyterLab with key word `Jupyter` or `JupyterLab`.
+After you login to DE, open the Apps window and search for Jupyter Lab with key word `Jupyter` or `JupyterLab`.
 
 |jupyter2-1|
 
 2. Launch analysis
 ==================
 
-Launch the JupyterLab app by clicking **launch analysis**. Before you launch, you can either drag and drop or browse the files that you want to use with Jupyter-lab. There is currently no restriction of how many files and size of the files that can be launched along with JupyterLab app.
+Launch the Jupyter Lab app by clicking **launch analysis**. Before you launch, you can either drag and drop or browse the files that you want to use with Jupyter. There is currently no restriction of how many files and size of the files that can be launched along with JupyterLab app.
 
 .. Note::
 	The input files and/or folders can be selected under the 'Parameters' tab.
 
 .. Tip::
-	If you have a working jupyter workbook, you can import it into the app using input files and/or folder.
+	If you have a working Jupyter workbook, you can import it into the app using input files and/or folder.
 
 |jupyter2-2|
 
@@ -41,9 +41,9 @@ Unlike regular DE apps once the analysis starts running you will get an url. Cli
 	The app might take a little bit to get everything set up. In the meantime you will see the welcome page.
 	You will be automatically redirected to the app from the welcome page after it finishes setting up.
 
-**The JupyterLab Interface:** JupyterLab provides flexible building blocks for interactive, exploratory computing. While JupyterLab has many features found in traditional integrated development environments (IDEs), it remains focused on interactive, exploratory computing. The JupyterLab interface consists of a main work area containing tabs of documents and activities, a collapsible left sidebar, and a menu bar. The left sidebar contains a file browser, the list of running kernels and terminals, the command palette, the notebook cell tools inspector, and the tabs list.
+**The Jupyter Lab Interface:** Jupyter Lab provides flexible building blocks for interactive, exploratory computing. While Jupyter Lab has many features found in traditional integrated development environments (IDEs), it remains focused on interactive, exploratory computing. The Jupyter Lab interface consists of a main work area containing tabs of documents and activities, a collapsible left sidebar, and a menu bar. The left sidebar contains a file browser, the list of running kernels and terminals, the command palette, the notebook cell tools inspector, and the tabs list.
 
-More information about the JupyterLab can be found `here <https://jupyterlab.readthedocs.io/en/stable/user/interface.html>`_.
+More information about the Jupyter Lab can be found `here <https://jupyterlab.readthedocs.io/en/stable/user/interface.html>`_.
 
 4. Create Jupyter notebook
 ==========================
@@ -56,13 +56,13 @@ To know more about notebooks in JupyterLab click `here <https://jupyterlab.readt
 
 .. Tip::
 
-	To open the classic Notebook from JupyterLab, select “Launch Classic Notebook” from the JupyterLab Help menu.
+	To open the classic Notebook from Jupyter Lab, select “Launch Classic Notebook” from the Help Menu.
 
 |jupyter2-5|
 
 .. Note::
 
-	There are plenty other cool stuff that you can do in JupyterLab such as using `consoles <https://jupyterlab.readthedocs.io/en/stable/user/code_console.html>`_, using `terminal <https://jupyterlab.readthedocs.io/en/stable/user/terminal.html>`_ and using `text editor <https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html>`_.
+	There are plenty other cool stuff that you can do in Jupyter Lab such as using `consoles <https://jupyterlab.readthedocs.io/en/stable/user/code_console.html>`_, using `terminal <https://jupyterlab.readthedocs.io/en/stable/user/terminal.html>`_ and using `text editor <https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html>`_.
 
 5. Write your code
 ==================
@@ -91,7 +91,7 @@ After you had done this, you can find the outputs that you generated (if any) us
 7. Jupyter-lab with SQL
 =======================
 
-Now you can run SQL queries inside a Jupyter-lab notebook. Here is a quick launch 
+Now you can run SQL queries inside a notebook. Here is a quick launch 
 
 .. raw:: html
 
