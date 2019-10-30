@@ -26,6 +26,11 @@ To see the most current list of VICE Apps: https://github.com/cyverse-vice/
       - RStudio
       - `Dockerfile <https://github.com/cyverse-vice/rstudio-geospatial/latest/>`_
       - |rstudio-geospatial-latest|_
+    * - `Jupyter Lab SciPy <https://github.com/cyverse-vice/jupyterlab-scipy/>`_
+      - Jupyter Lab w/ SciPy
+      - Jupyter
+      - `Dockerfile <https://github.com/cyverse-vice/jupyterlab-scipy/latest/>`_
+      - |jupyter-scipy-latest|_
     * - `JupyterLab-0.0.3 <../user_guide/quick-jupyter.html>`_
       - JupyterLab base app in DE
       - Jupyter
@@ -73,6 +78,10 @@ To see the most current list of VICE Apps: https://github.com/cyverse-vice/
 
 .. |rstudio-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _rstudio-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=12f25023-b6b1-4f23-bbcc-49f0295da8c4&app-id=07e2b2e6-becd-11e9-b524-008cfa5ae621
+
+.. |jupyter-scipy-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _jupyter-scipy-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=91c72a5d-0ce9-484f-a1f1-feba4cab75a5&app-id=bc93504c-d584-11e9-8413-008cfa5ae621
+
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
