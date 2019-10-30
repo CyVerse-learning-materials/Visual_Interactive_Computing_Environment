@@ -102,7 +102,7 @@ References/Tutorials
   |Home_Icon|_
   `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |CyVerse_logo| image:: ../img/cyverse_cymk.png
+.. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
     :width: 500
     :height: 100
 .. _CyVerse_logo: https://cyverse.org/
