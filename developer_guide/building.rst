@@ -1,4 +1,4 @@
-|CyVerse logo|_
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
@@ -76,9 +76,6 @@ To create a new app, follow the instructions in `here <https://wiki.cyverse.org/
   
   |vice-do-not-pass|
   
-  
-
-
 
 ----
 
@@ -94,10 +91,11 @@ To create a new app, follow the instructions in `here <https://wiki.cyverse.org/
 
 .. |add-tools| image:: ../img/add-tools.png
 
-.. |CyVerse logo| image:: ../img/cyverse_rgb.png
+.. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
     :width: 500
     :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
+.. _CyVerse logo: http://cyverse.org/
+
 .. |Home_Icon| image:: ../img/homeicon.png
     :width: 25
     :height: 25
