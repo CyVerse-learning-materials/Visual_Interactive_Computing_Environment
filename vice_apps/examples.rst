@@ -36,6 +36,12 @@ To see the most current list of VICE Apps: https://github.com/cyverse-vice/
       - Jupyter
       - `Dockerfile <https://github.com/cyverse-vice/jupyterlab-base/1.0.9/>`_
       - |jupyter-sql-1.0.9|_
+     
+    * - `Jupyter QIIME2 <https://hub.docker.com/r/alyssacochran/q2_vice/>`_
+      - Jupyter Lab w/ QIIME2
+      - Jupyter
+      - `Dockerfile <https://github.com/cyverse-vice/jupyterlab-qiime2/tree/master/2019.7>`_
+      - |jupyter-qiime2-2019.7|_
     * - `JupyterLab-0.0.3 <../user_guide/quick-jupyter.html>`_
       - JupyterLab base app in DE
       - Jupyter
@@ -90,7 +96,9 @@ To see the most current list of VICE Apps: https://github.com/cyverse-vice/
 .. |jupyter-scipy-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _jupyter-scipy-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=91c72a5d-0ce9-484f-a1f1-feba4cab75a5&app-id=bc93504c-d584-11e9-8413-008cfa5ae621
 
-
+.. |jupyter-qiime2-2019.7| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _jupyter-qiime2-2019.7: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=a02c1fa2-648b-4cb4-ae40-d5ca5c8cdbb6&app-id=2035c1ce-d031-11e9-a43f-008cfa5ae621
+ 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
