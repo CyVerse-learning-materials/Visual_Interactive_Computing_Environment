@@ -1,4 +1,4 @@
-|CyVerse logo|_
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
@@ -24,14 +24,16 @@ In cases where the installation may be complex, long, or require additional syst
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |CyVerse logo| image:: ../img/cyverse_rgb.png
+.. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
     :width: 500
     :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
+.. _CyVerse_logo: https://cyverse.org/
+
 .. |Home_Icon| image:: ../img/homeicon.png
     :width: 25
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
+
 .. |flow| image:: ../img/flow_new.png
     :width: 700
     :height: 400
