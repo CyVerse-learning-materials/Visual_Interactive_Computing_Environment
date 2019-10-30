@@ -1,4 +1,4 @@
-|CyVerse logo|_
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
@@ -95,10 +95,10 @@ To see a list of Geospatial VICE Apps: https://github.com/cyverse-gis/dockerfile
 .. |shiny logo| image:: ../img/vice_badge.png
 .. _shiny logo: https://de.cyverse.org/de/?type=apps&app-id=266f6028-205b-45c9-b1c3-11f9be9dcfe5&system-id=de
 
-.. |CyVerse logo| image:: ../img/cyverse_rgb.png
+.. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
     :width: 500
     :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
+.. _CyVerse logo: http://cyverse.org/
 
 .. |Home_Icon| image:: ../img/homeicon.png
     :width: 25
