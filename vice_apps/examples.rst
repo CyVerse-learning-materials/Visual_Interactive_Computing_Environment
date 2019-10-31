@@ -21,6 +21,11 @@ To see the most current list of VICE Apps: https://github.com/cyverse-vice/
       - Type
       - Dockerfile
       - Quick Launch
+    * - `RStudio Verse <https://hub.docker.com/r/cyversevice/rstudio-verse/>`_
+      - Rocker RStudio Verse latest
+      - RStudio
+      - `Dockerfile <https://github.com/cyverse-vice/rstudio-verse/latest/>`_
+      -|rstudio-verse-latest|_
     * - `RStudio Geospatial <https://hub.docker.com/r/cyversevice/rstudio-geospatial/>`_
       - Rocker RStudio Geospatial latest
       - RStudio
@@ -86,6 +91,9 @@ To see the most current list of VICE Apps: https://github.com/cyverse-vice/
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
+
+.. |rstudio-verse-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _rstudio-verse-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=b548d3e2-3310-45ae-8b1f-78e8cce2cfaf&app-id=3548f43a-bed1-11e9-af16-008cfa5ae621
 
 .. |rstudio-geospatial-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _rstudio-geospatial-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=12f25023-b6b1-4f23-bbcc-49f0295da8c4&app-id=07e2b2e6-becd-11e9-b524-008cfa5ae621
