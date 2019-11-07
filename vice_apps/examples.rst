@@ -25,7 +25,7 @@ To see the most current list of VICE Apps: https://github.com/cyverse-vice/
       - Rocker RStudio Verse latest
       - RStudio
       - `Dockerfile <https://github.com/cyverse-vice/rstudio-verse/latest/>`_
-      -|rstudio-verse-latest|_
+      - |rstudio-verse-latest|_
     * - `RStudio Geospatial <https://hub.docker.com/r/cyversevice/rstudio-geospatial/>`_
       - Rocker RStudio Geospatial latest
       - RStudio
