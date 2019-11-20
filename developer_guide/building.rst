@@ -29,7 +29,7 @@ Brifely here are the following steps.
 
 You'll see a Add Tool form like this
 
-|add-tools|
+|add-tool|
 
 - ``Tool name`` is the name of the tool. This will appear in the DE's tool listing dialog. This is mandatory field. Eg. "jupyterlab-circos"
 
@@ -89,7 +89,7 @@ To create a new app, follow the instructions in `here <https://wiki.cyverse.org/
   |Home_Icon|_
   `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |add-tools| image:: ../img/add-tools.png
+.. |add-tool| image:: ../img/add-tool.png
 
 .. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
     :width: 500
