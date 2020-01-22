@@ -16,7 +16,10 @@
 
 `You must set a unique PASSWORD (not 'rstudio') first! e.g. run with: docker run -e PASSWORD=<YOUR_PASS> -p 8787:8787 rocker/rstudio`
 
-A: Trying using this base image for rStudio: `cyversevice/rstudio-base:latest` or `cyversevice/rstudio-verse:3.6.0` rather than rocker/rstudio.  For bioconductor images, use `upendradevisetty/bioconductor:1.0`
+A: Make sure the environmental password is set for rStudio: `ENV PASSWORD "rstudio1"`.  
+You can also try using this base image for rStudio: `cyversevice/rstudio-base:latest` or `cyversevice/rstudio-verse:3.6.0`.  For bioconductor images, use `upendradevisetty/bioconductor:1.0`.
+
+
 
 
 ----
