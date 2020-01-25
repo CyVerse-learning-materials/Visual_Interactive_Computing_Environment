@@ -6,9 +6,9 @@
 **Sharing VICE apps with collaborators**
 ----------------------------------------
 
-You can share your VICE workspace with colleagues (whith a CyVerse account) who can see and edit your notebooks, logs, and outputs. 
+You can share your running VICE workspace with colleagues (with a CyVerse account) who can see and edit your notebooks, logs, and outputs.
 
-**To share your workspace**
+**To share your running workspace**
 
 |vice-share-1|
 
@@ -27,6 +27,47 @@ You can share your VICE workspace with colleagues (whith a CyVerse account) who 
 |vice-share-6|
 
 |vice-share-7|
+
+----
+
+There are also different ways to share a VICE app without sharing a running instance of that app.
+
+- Apps that have been made public in the Discovery Environment can be shared with the
+  `public app's URL <https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+App+and+Tool+Information>`_.
+- Unpublished apps (those in your private workspace that have not yet been made public) can be shared with specific users or teams.
+  See `Sharing your App or Workflow and Editing the User Manual <https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual#SharingyourApporWorkflowandEditingtheUserManual-Sharingandunsharinganunpublishedapporworkflowwithspecificusers>`_.
+- A Quick Launch configuration can be created, and then the URL to the Quick Launch can be shared.
+
+----
+
+**Creating and sharing Quick Launch configurations**
+
+Quick Launches provide a way to set default parameter values for an analysis,
+which can make it much easier to launch similar jobs without having to select the parameter values that the jobs have in common for every new analysis.
+
+To create a Quick Launch, open the app as if you are going to run it,
+fill in any default parameters for this Quick Launch,
+then click the **Create Quick Launch** button instead of the **Launch Analysis** button.
+
+|quick-launch-create|
+
+Then you can name the Quick Launch and make it public.
+
+|quick-launch-dialog|
+
+To share the link for a public Quick Launch, or to copy its badge code for embedding in web pages or in repo markdown files,
+click the **Quick Launch** menu item from the app's 3-dot menu in the **Apps window**.
+
+|quick-launch-use|
+
+Note that private Quick Launch configurations cannot be shared,
+and clicking on them from this listing simply opens the app launch dialog with its parameters pre-filled,
+according to the Quick Launch configuration.
+
+If you don't need to save any default inputs or parameters,
+you can also use the app's public URL for sharing the VICE app,
+which acts the same as a Quick Launch,
+but it doesn't have any parameters pre-filled.
 
 ----
 
@@ -81,3 +122,10 @@ You can share your VICE workspace with colleagues (whith a CyVerse account) who 
     :width: 750
 .. |vice-share-7| image:: ../img/vice-share-7.png
     :width: 750
+
+.. |quick-launch-create| image:: ../img/quick_launch/create_quick_launch.png
+    :width: 640
+.. |quick-launch-dialog| image:: ../img/quick_launch/create_quick_launch_dialog.png
+    :width: 363
+.. |quick-launch-use| image:: ../img/quick_launch/use_quick_launch.png
+    :width: 585
