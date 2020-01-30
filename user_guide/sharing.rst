@@ -20,8 +20,6 @@ You can share your VICE workspace with colleagues (whith a CyVerse account) who 
 
 |vice-share-5|
 
-
-
 **Opening workspaces shared with you**
 
 
@@ -30,6 +28,7 @@ You can share your VICE workspace with colleagues (whith a CyVerse account) who 
 |vice-share-6|
 
 |vice-share-7|
+
 ----
 
 
