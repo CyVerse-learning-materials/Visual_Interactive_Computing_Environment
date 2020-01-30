@@ -22,15 +22,11 @@ You can share your VICE workspace with colleagues (whith a CyVerse account) who 
 
 **Opening workspaces shared with you**
 
-
 |vice-share-1|
 
 |vice-share-6|
 
 |vice-share-7|
-
-----
-
 
 ----
 
