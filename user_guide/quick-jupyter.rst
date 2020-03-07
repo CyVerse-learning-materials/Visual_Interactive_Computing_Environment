@@ -133,4 +133,3 @@ Now you can run SQL queries inside a notebook. Here is a quick launch
 .. |jupyter2-7| image:: ../img/vice/jupyter/jupyter2-7.png
 	:width: 700
 	:height: 400
-.. _Home_Icon: http://learning.cyverse.org/
