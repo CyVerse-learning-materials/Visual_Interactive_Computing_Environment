@@ -126,4 +126,4 @@ After you had done this, you can find the outputs that you generated (if any) us
 .. |rstudio3-10| image:: ../img/vice/rstudio/rstudio3-10.png
 	:width: 700
 	:height: 400
-.. _Home_Icon: http://learning.cyverse.org/
+	
