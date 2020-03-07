@@ -98,7 +98,7 @@ The Ubuntu Desktop has a full Guacamole installation and Ubuntu XFCE desktop. Th
 4.1 Ubuntu Desktop VICE 
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Ubuntu Desktop VICE app is integrated into the DE. Click here to do a quick launch of Linux Desktop VICE app in the DE.
+Linux Desktops using Apache Guacamole, and Xpra have been integrated into the DE.
 
 ----
 
