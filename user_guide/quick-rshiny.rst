@@ -151,4 +151,4 @@ References/Tutorials
 .. |shiny1-13| image:: ../img/vice/shiny/shiny1-13.png
 	:width: 700
 	:height: 400
-.. _Home_Icon: http://learning.cyverse.org/
+	
