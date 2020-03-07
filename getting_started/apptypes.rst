@@ -12,7 +12,7 @@ Currently, VICE apps are categorized broadly into three different spaces:
 2. Interactive apps (Shiny, WebGL, HTML5) 
 3. Virtual Desktop Environment (w/ Apache Guacamole, VNC, XPRA) 
 
-Each of these spaces serves a different data science purpose. For example..
+Each of these serve a different data science purpose. 
 
 * If you are interested in writing Python, Julia, Spark, C++ based data analysis or visualization, Jupyter is most appropriate.
 
@@ -122,23 +122,23 @@ Ubuntu Desktop VICE app is integrated into the DE. Click here to do a quick laun
     :height: 25
 .. _Home_Icon: http://learning.cyverse.org/
 
-.. |JupyterLab VICE| raw::html
+.. |JupyterLab VICE| raw:: html
    
    <a href="https://hub.docker.com/r/cyversevice/jupyterlab-scipy" target="blank">JupyterLab VICE</a>
    
-.. |Project Jupyter Images| raw::html
+.. |Project Jupyter Images| raw:: html
 
    <a href="https://hub.docker.com/u/jupyter" target="blank">Project Jupyter Images</a>
    
-.. |RStudio VICE| raw::html
+.. |RStudio VICE| raw:: html
    
    <a href="https://hub.docker.com/r/cyversevice/rocker-verse" target="blank">RStudio VICE</a>
 
-.. |Rocker Project Images| raw::html
+.. |Rocker Project Images| raw:: html
    
    <a href="https://hub.docker.com/u/rocker" target="blank">Rocker Project Images</a>
    
-.. |Shiny VICE| raw::html
+.. |Shiny VICE| raw:: html
    
    <a href="https://hub.docker.com/r/cyversevice/shiny-verse" target="blank">Shiny VICE</a>
    
