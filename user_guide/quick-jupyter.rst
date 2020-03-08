@@ -110,6 +110,7 @@ Now you can run SQL queries inside a notebook. Here is a quick launch
 .. |Home_Icon| image:: ../img/homeicon.png
     :width: 25
     :height: 25
+    
 .. _Home_Icon: http://learning.cyverse.org 
 
 .. |jupyter2-1| image:: ../img/vice/jupyter/jupyter2-1.png
