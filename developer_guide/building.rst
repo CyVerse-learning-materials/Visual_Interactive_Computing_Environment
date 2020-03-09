@@ -1,12 +1,12 @@
-|CyVerse_logo|_
-
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Building VICE tools and apps**
---------------------------------
+**Building DE tools and apps**
+------------------------------
 
-Once you build your Docker image (following the guidelines), the next step is building the VICE tools. For this you'll need a Docker image, port number, User ID and Working directory.
+Once you build your Docker image (following the guidelines), the next step is building the Tool. 
+
+For this you'll need a Docker image name, any port numbers ``PORT``, User ID ``UID``, working directory ``WORKDIR``, and ``ENTRYPOINT``.
 
 Docker images
 ===============
@@ -53,11 +53,11 @@ You'll see a Add Tool form like this
 
 - ``UID`` is a number and must be filled in with the value you gathered from above. E.g 1000
 
-- ``Max CPU Cores`` is the number of cores for your tool. Eg. 4
+- ``Max CPU Cores`` is the number of cores for your tool. Eg. 16
 
-- ``Memory Limit`` is the memory for your tool. Eg. 16 GB
+- ``Memory Limit`` is the memory for your tool. Eg. 64 GB
 
-- ``Min Disk Space`` is the minimum disk space. Eg. 266 GB
+- ``Min Disk Space`` is the minimum disk space. Eg. 200 GB
 
 - ``Container Ports`` must be a list of maps with only a single entry. The key in that entry must be container_port and should be filled in with the number value you gathered above.
 
@@ -91,9 +91,8 @@ To create a new app, follow the instructions in `here <https://wiki.cyverse.org/
 
 .. |add-tool| image:: ../img/add-tool.png
 
-.. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
+.. |CyVerse_logo| image:: ../img/cyverse_learning.png
     :width: 500
-    :height: 100
 .. _CyVerse logo: http://cyverse.org/
 
 .. |Home_Icon| image:: ../img/homeicon.png
