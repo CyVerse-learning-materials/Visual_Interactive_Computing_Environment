@@ -112,7 +112,7 @@ Linux Desktops using Apache Guacamole, and Xpra have been integrated into the DE
   |Home_Icon|_
   `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |CyVerse_logo| image:: ./img/cyverse_learning.png
+.. |CyVerse_logo| image:: ../img/cyverse_learning.png
     :width: 500
 .. _CyVerse_logo: https://cyverse.org/
 
