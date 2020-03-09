@@ -6,11 +6,7 @@
 VICE Apps in DE 
 -----------------------
 
-.. Tip::
-
-	Go to https://cyverse.run to see public VICE apps or apps that you've integrated or had shared with your user name.
-
-To see the most current list of VICE Apps: https://github.com/cyverse-vice/
+CyVerse provides base images of featured VICE apps here: https://github.com/cyverse-vice/
 
 
 .. list-table::
