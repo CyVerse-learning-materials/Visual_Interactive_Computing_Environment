@@ -34,7 +34,7 @@ Conclusion
   |Home_Icon|_
   `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |CyVerse_logo| image:: ./img/cyverse_learning.png
+.. |CyVerse_logo| image:: ../img/cyverse_learning.png
     :width: 500
 .. _CyVerse_logo: https://cyverse.org/
 
