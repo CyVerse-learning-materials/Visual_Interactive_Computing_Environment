@@ -29,9 +29,8 @@ Ask Forum
   |Home_Icon|_
   `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
+.. |CyVerse_logo| image:: ../img/cyverse_learning.png
     :width: 500
-    :height: 100
 .. _CyVerse_logo: http://cyverse.org/
 
 .. |Home_Icon| image:: ../img/homeicon.png
