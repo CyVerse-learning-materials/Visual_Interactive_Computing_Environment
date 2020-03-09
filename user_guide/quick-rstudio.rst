@@ -1,5 +1,3 @@
-|CyVerse_logo|_
-
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
