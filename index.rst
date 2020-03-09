@@ -10,12 +10,6 @@ VICE Documentation
 
 This guide introduces VICE, a visual and interactive computing environment which is the latest feature in CyVerse's Discovery Environment (DE) for running interactive apps. This guide instructs users on how to do basic functions of VICE, e.g., how to launch interactive apps, run your analysis on interactive apps, build interactive apps etc.
 
-.. raw:: html
-
-    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <iframe src="https://www.youtube.com/embed/KpBC0nScfL0?t=76s" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
-    </div>
-
 .. toctree::
    :maxdepth: 1
    :caption: Getting Started
