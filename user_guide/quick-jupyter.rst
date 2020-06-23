@@ -93,7 +93,7 @@ Now you can run SQL queries inside a notebook. Here is a quick launch
 
 .. raw:: html
 
-	<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=d6863512-2b9c-4365-8f8e-3c7cdcdda06f&app-id=238da900-c81f-11e9-a1b1-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
+	<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=70c7958f-534e-4ff6-86b7-9bfb7598c242&app-id=d61d9a26-e921-11e9-8fe0-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
 
 ----
 
