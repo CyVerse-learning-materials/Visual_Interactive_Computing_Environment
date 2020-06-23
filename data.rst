@@ -33,6 +33,8 @@ iRODS Jupyter Plugin
 ====================
 
 - CyVerse has enabled a Jupyter Lab plugin for viewing iRODS Data Stores.
+  
+  * the plugin is featured in containers running JupyterLab < v1.0.9.
 
 ----
 
@@ -46,7 +48,7 @@ iRODS Jupyter Plugin
   |Home_Icon|_
   `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
+.. |CyVerse logo| image:: ./img/cyverse_learning.png
     :width: 500
     :height: 100
 .. _CyVerse logo: http://learning.cyverse.org/
