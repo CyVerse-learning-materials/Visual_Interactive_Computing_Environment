@@ -20,22 +20,22 @@ CyVerse provides base images of featured VICE apps here: https://github.com/cyve
     * - `RStudio Verse <https://hub.docker.com/r/cyversevice/rstudio-verse/>`_
       - Rocker RStudio Verse latest
       - RStudio
-      - `Dockerfile <https://github.com/cyverse-vice/rstudio-verse/latest/>`_
+      - `Dockerfiles <https://github.com/cyverse-vice/rstudio-verse/>`_
       - |rstudio-verse-latest|_
     * - `RStudio Geospatial <https://hub.docker.com/r/cyversevice/rstudio-geospatial/>`_
       - Rocker RStudio Geospatial latest
       - RStudio
-      - `Dockerfile <https://github.com/cyverse-vice/rstudio-geospatial/latest/>`_
+      - `Dockerfiles <https://github.com/cyverse-vice/rstudio-geospatial/>`_
       - |rstudio-geospatial-latest|_
     * - `Jupyter Lab SciPy <https://hub.docker.com/r/cyversevice/jupyterlab-scipy/>`_
       - Jupyter Lab w/ SciPy
       - Jupyter
-      - `Dockerfile <https://github.com/cyverse-vice/jupyterlab-scipy/latest/>`_
+      - `Dockerfiles <https://github.com/cyverse-vice/jupyterlab-scipy/>`_
       - |jupyter-scipy-latest|_
     * - `Jupyter Lab SQL <https://hub.docker.com/r/cyversevice/jupyterlab-base/>`_
       - Jupyter Lab w/ SQL
       - Jupyter
-      - `Dockerfile <https://github.com/cyverse-vice/jupyterlab-base/1.0.9/>`_
+      - `Dockerfiles <https://github.com/cyverse-vice/jupyterlab-base/>`_
       - |jupyter-sql-1.0.9|_
      
 

@@ -8,7 +8,13 @@
 VICE Documentation
 ==================
 
-This guide introduces VICE, a visual and interactive computing environment which is the latest feature in CyVerse's Discovery Environment (DE) for running interactive apps. This guide instructs users on how to do basic functions of VICE, e.g., how to launch interactive apps, run your analysis on interactive apps, build interactive apps etc.
+The Visual and Interactive Computing Environment (VICE) is the latest feature in CyVerse's Discovery Environment (DE) for running interactive applications. 
+
+This User Guide instructs users on basic functions of the DE: (a) how to launch an interactive app, (b) bring your data into the container, (c) run an analysis, and (d) save or upload your results to the cloud.
+
+The Developer Guide gives advanced tips about how to (a) build your own VICE-ready containers, (b) host them on a public registry, and (c) integrate them into VICE and make them available to your user community.
+
+Last, we provide a brief list of featured VICE apps in the DE.
 
 .. toctree::
    :maxdepth: 1
