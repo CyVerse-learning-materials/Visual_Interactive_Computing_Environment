@@ -16,6 +16,9 @@ To request access to VICE, please fill out this form: https://forms.gle/JH65bNTj
     * - Prerequisite
       - Preparation/Notes
       - Link/Download
+    * - Access to VICE
+      - Fillow out this form
+      - https://forms.gle/JH65bNTj4nVh9qWY7
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
       - `Register <https://user.cyverse.org/>`_
