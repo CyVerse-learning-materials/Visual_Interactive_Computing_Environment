@@ -6,7 +6,9 @@
 **Prerequisites**
 -----------------
 
-*In order to use VICE, you will need access to the following services/software*
+*In order to use VICE, you will need access VICE and to the following services/software*
+
+To request access to VICE, please press the "?" bubble at the top of the window and submit something along the lings of: "I'd like access to VICE for the following reason(s)"
 
 .. list-table::
     :header-rows: 1
