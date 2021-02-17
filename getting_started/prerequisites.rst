@@ -8,7 +8,7 @@
 
 *In order to use VICE, you will need access VICE and to the following services/software*
 
-To request access to VICE, please press the "?" bubble at the top of the window and submit something along the lings of: "I'd like access to VICE for the following reason(s)"
+To request access to VICE, please fill out this form: https://forms.gle/JH65bNTj4nVh9qWY7
 
 .. list-table::
     :header-rows: 1
