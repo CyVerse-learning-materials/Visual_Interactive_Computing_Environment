@@ -9,6 +9,7 @@
 
    <a href="https://github.com/CyVerse-learning-materials/container-camp" target="blank">Github Repo Link</a>
 
+.. Comment: Images specific to this RTD Repo
 
 .. |rstudio-verse-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _rstudio-verse-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=b548d3e2-3310-45ae-8b1f-78e8cce2cfaf&app-id=3548f43a-bed1-11e9-af16-008cfa5ae621
@@ -23,3 +24,25 @@
 .. _jupyter-scipy-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=91c72a5d-0ce9-484f-a1f1-feba4cab75a5&app-id=bc93504c-d584-11e9-8413-008cfa5ae621
 
 
+
+.. |jupyter2-1| image:: ../img/vice/jupyter/jupyter2-1.png
+	:width: 700
+	:height: 400
+.. |jupyter2-2| image:: ../img/vice/jupyter/jupyter2-2.png
+	:width: 700
+	:height: 400
+.. |jupyter2-3| image:: ../img/vice/jupyter/jupyter2-3.png
+	:width: 700
+	:height: 400
+.. |jupyter2-4| image:: ../img/vice/jupyter/jupyter2-4.png
+	:width: 700
+	:height: 400
+.. |jupyter2-5| image:: ../img/vice/jupyter/jupyter2-5.png
+	:width: 700
+	:height: 400
+.. |jupyter2-6| image:: ../img/vice/jupyter/jupyter2-6.png
+	:width: 700
+	:height: 400
+.. |jupyter2-7| image:: ../img/vice/jupyter/jupyter2-7.png
+	:width: 700
+	:height: 400

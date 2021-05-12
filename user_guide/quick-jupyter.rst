@@ -1,3 +1,6 @@
+.. include:: ../cyverse_rst_defined_substitutions.txt
+.. include:: ../custom_urls.txt
+
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
@@ -70,7 +73,7 @@ Once you open a new notebook, you can start writing your code, put markdown text
 |jupyter2-6|
 
 6. Complete and Save Outputs
-===========================
+============================
 
 After finishing your analysis, you can save outputs to data store by clicking the Analysis window, then select the VICE analysis that you are running and select `Complete and Save Outputs` under the "Analyses" button.
 
@@ -94,40 +97,3 @@ Now you can run SQL queries inside a notebook. Here is a quick launch
 .. raw:: html
 
 	<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=266f8f99-63c6-4bfa-977b-aab8ebd087b3&app-id=d61d9a26-e921-11e9-8fe0-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
-
-----
-
-|Home_Icon|_
-`Learning Center Home <http://learning.cyverse.org/>`_
-
-.. |CyVerse_logo| image:: ../img/cyverse_learning.png
-    :width: 500
-.. _CyVerse_logo: http://cyverse.org/
-
-.. |Home_Icon| image:: ../img/homeicon.png
-    :width: 25
-    :height: 25
-    
-.. _Home_Icon: http://learning.cyverse.org 
-
-.. |jupyter2-1| image:: ../img/vice/jupyter/jupyter2-1.png
-	:width: 700
-	:height: 400
-.. |jupyter2-2| image:: ../img/vice/jupyter/jupyter2-2.png
-	:width: 700
-	:height: 400
-.. |jupyter2-3| image:: ../img/vice/jupyter/jupyter2-3.png
-	:width: 700
-	:height: 400
-.. |jupyter2-4| image:: ../img/vice/jupyter/jupyter2-4.png
-	:width: 700
-	:height: 400
-.. |jupyter2-5| image:: ../img/vice/jupyter/jupyter2-5.png
-	:width: 700
-	:height: 400
-.. |jupyter2-6| image:: ../img/vice/jupyter/jupyter2-6.png
-	:width: 700
-	:height: 400
-.. |jupyter2-7| image:: ../img/vice/jupyter/jupyter2-7.png
-	:width: 700
-	:height: 400
