@@ -48,3 +48,5 @@
 .. |jupyter2-7| image:: ../img/vice/jupyter/jupyter2-7.png
 	:width: 700
 	:height: 400
+.. |app-loading| image:: ../img/vice/jupyter/app_loading.gif
+	:width: 700
