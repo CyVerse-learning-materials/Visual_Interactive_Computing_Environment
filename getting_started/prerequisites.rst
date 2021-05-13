@@ -1,7 +1,6 @@
 .. include:: ../cyverse_rst_defined_substitutions.txt
 .. include:: ../custom_urls.txt
 
-
 |CyVerse_logo|_
 
 |Home_Icon|_
@@ -10,19 +9,12 @@
 **Prerequisites**
 -----------------
 
-*In order to use VICE, you will need access VICE and to the following services/software*
-
-To request access to VICE, please fill out this form: https://forms.gle/JH65bNTj4nVh9qWY7
-
 .. list-table::
     :header-rows: 1
 
     * - Prerequisite
       - Preparation/Notes
       - Link/Download
-    * - Access to VICE
-      - Fillow out this form
-      - https://forms.gle/JH65bNTj4nVh9qWY7
     * - CyVerse account
       - You will need a CyVerse account to complete this exercise
       - `Register <https://user.cyverse.org/>`_
@@ -41,12 +33,3 @@ To request access to VICE, please fill out this form: https://forms.gle/JH65bNTj
 
   |Home_Icon|_
   `Learning Center Home <http://learning.cyverse.org/>`_
-
-.. |CyVerse_logo| image:: ../img/cyverse_learning.png
-    :width: 500
-.. _CyVerse_logo: https://cyverse.org/
-
-.. |Home_Icon| image:: ../img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
