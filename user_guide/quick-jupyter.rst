@@ -7,27 +7,37 @@
 **Jupyter Lab**
 ---------------
 
-1. Search a Jupyter Lab
-=======================
+1. Search for JupyterLab
+========================
 
 Log into `CyVerse DE <https://de.cyverse.org/de/>`_
 
-Open the Apps window and search for Jupyter Lab with key word `Jupyter` or `JupyterLab`.
+Use the search bar to specify 'Apps' or type keywords `Jupyter` or `JupyterLab Datascience`
 
-|jupyter2-1|
+|jupyter2-0|
 
 2. Launch analysis
 ==================
 
-Launch the Jupyter Lab app by clicking **launch analysis**. Before you launch, you can either drag and drop or browse the files that you want to use with Jupyter. There is currently no restriction of how many files and size of the files that can be launched along with JupyterLab app.
+|jupyter2-1|
+
+Instant Launches will start the App immediately.
+
+Clicking on **Apps** find the JupyterLab you're interested in and then click on the blue run button.
+
+By default the Analysis Name is the name of the App, and the Output Folder is where any work done in the container will be written to ``/iplant/home/username/analyses/analysis_name/`` directory **AFTER** the interactive analysis is completed. 
+
+.. Note::
+	Terminating an App will stop it from writing outputs to your data store ``analyses/`` directory.
+
+|jupyter2-2|
 
 .. Note::
 	The input files and/or folders can be selected under the 'Parameters' tab.
 
 .. Tip::
-	If you have a working Jupyter workbook, you can import it into the app using input files and/or folder.
+	If you have an existing Jupyter workbook, you can import it into the app using input files and/or folder in the Parameters .
 
-|jupyter2-2|
 
 3. Navigate to JupyterLab url
 ==============================
