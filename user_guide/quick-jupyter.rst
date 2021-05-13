@@ -42,16 +42,15 @@ By default the Analysis Name is the name of the App, and the Output Folder is wh
 3. Navigate to JupyterLab url
 ==============================
 
-Unlike regular DE apps once the analysis starts running you will get an url. Click on your notifications, and then by clicking on the "Access your running Analysis here" url (check that it is the jupyter app) you will be redirect to a page with a welcome message.
+After you start the VICE App, you will be taken to a loading screen.
 
-|jupyter2-3|
+|app-waiting|
 
-|jupyter2-4|
+Once the app is ready, it will transition to the Jupyter Lab interface
 
 .. Important::
-	The app might take a little bit to get everything set up. In the meantime you will see the welcome page.
-	You will be automatically redirected to the app from the welcome page after it finishes setting up.
-
+	Normal wait times for a featured VICE App are less than 2 minutes. If you're experiencing a significantly longer wait, consider terminating  the app and re-starting. 
+	
 **The Jupyter Lab Interface:** Jupyter Lab provides flexible building blocks for interactive, exploratory computing. While Jupyter Lab has many features found in traditional integrated development environments (IDEs), it remains focused on interactive, exploratory computing. The Jupyter Lab interface consists of a main work area containing tabs of documents and activities, a collapsible left sidebar, and a menu bar. The left sidebar contains a file browser, the list of running kernels and terminals, the command palette, the notebook cell tools inspector, and the tabs list.
 
 More information about the Jupyter Lab can be found `here <https://jupyterlab.readthedocs.io/en/stable/user/interface.html>`_.
