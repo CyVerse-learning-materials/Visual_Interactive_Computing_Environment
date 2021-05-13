@@ -76,3 +76,10 @@ Last, we provide a brief list of featured VICE apps in the DE.
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 
+  |Home_Icon|_
+  `Learning Center Home <http://learning.cyverse.org/>`_
+
+.. |Home_Icon| image:: ./img/homeicon.png
+    :width: 25
+    :height: 25
+.. _Home_Icon: http://learning.cyverse.org/
