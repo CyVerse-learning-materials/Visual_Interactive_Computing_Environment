@@ -44,7 +44,7 @@ By default the Analysis Name is the name of the App, and the Output Folder is wh
 
 After you start the VICE App, you will be taken to a loading screen.
 
-|app-waiting|
+|app-loading|
 
 Once the app is ready, it will transition to the Jupyter Lab interface
 
