@@ -24,7 +24,9 @@
 .. _jupyter-scipy-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=91c72a5d-0ce9-484f-a1f1-feba4cab75a5&app-id=bc93504c-d584-11e9-8413-008cfa5ae621
 
 
-
+.. |jupyter2-0| image:: ../img/vice/jupyter/jupyter2-0.png
+	:width: 700
+	:height: 400
 .. |jupyter2-1| image:: ../img/vice/jupyter/jupyter2-1.png
 	:width: 700
 	:height: 400
