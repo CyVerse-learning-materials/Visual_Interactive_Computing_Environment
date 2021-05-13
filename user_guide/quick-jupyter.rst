@@ -10,9 +10,9 @@
 1. Search a Jupyter Lab
 =======================
 
-First log-in `CyVerse DE <https://de.cyverse.org/de/>`_
+Log into `CyVerse DE <https://de.cyverse.org/de/>`_
 
-After you login to DE, open the Apps window and search for Jupyter Lab with key word `Jupyter` or `JupyterLab`.
+Open the Apps window and search for Jupyter Lab with key word `Jupyter` or `JupyterLab`.
 
 |jupyter2-1|
 
