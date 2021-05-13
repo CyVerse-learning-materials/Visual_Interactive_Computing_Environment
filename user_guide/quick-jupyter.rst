@@ -100,11 +100,3 @@ After you had done this, you can find the outputs that you generated (if any) us
 - On Github: `Repo link <https://github.com/CyVerse-learning-materials/sciapps_guide>`_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
-7. Jupyter-lab with SQL
-=======================
-
-Now you can run SQL queries inside a notebook. Here is a quick launch 
-
-.. raw:: html
-
-	<a href="https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=266f8f99-63c6-4bfa-977b-aab8ebd087b3&app-id=d61d9a26-e921-11e9-8fe0-008cfa5ae621" target="_blank"><img src="https://de.cyverse.org/Powered-By-CyVerse-blue.svg"></a>
