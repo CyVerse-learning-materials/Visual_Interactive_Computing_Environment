@@ -85,7 +85,7 @@ To create a new app, follow the instructions in `here <https://wiki.cyverse.org/
 
 **Fix or improve this documentation:**
 
-- On Github: `Repo link <https://github.com/CyVerse-learning-materials/Visual_Interactive_Computing_Environment/blob/master/developer_guide/building.rst>`_
+- On Github: |Github Repo Link|_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----

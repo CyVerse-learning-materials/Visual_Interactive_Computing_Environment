@@ -64,6 +64,6 @@ To see a list of Geospatial VICE Apps: https://github.com/cyverse-gis/dockerfile
 
 **Fix or improve this documentation**
 
-- On Github: `Repo link <https://github.com/CyVerse-learning-materials/sciapps_guide>`_
+- On Github: |Github Repo Link|_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 

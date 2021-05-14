@@ -30,6 +30,6 @@ You can also try using this base image for rStudio: `cyversevice/rstudio-base:la
 
 **Fix or improve this documentation:**
 
-- On Github: `Repo link <https://github.com/CyVerse-learning-materials/sciapps_guide>`_
+- On Github: |Github Repo Link|_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
