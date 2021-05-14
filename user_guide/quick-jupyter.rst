@@ -109,6 +109,6 @@ After you had done this, you can find the outputs that you generated (if any) us
 
 **Fix or improve this documentation**
 
-- On Github: `Repo link <https://github.com/CyVerse-learning-materials/sciapps_guide>`_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
