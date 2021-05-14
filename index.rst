@@ -78,17 +78,17 @@ Last, we provide a brief list of featured VICE apps in the DE.
 
 .. Comment: images
 
-.. |CyVerse_logo| image:: ../img/cyverse_learning.png
+.. |CyVerse_logo| image:: ./img/cyverse_learning.png
     :width: 500
 
 .. _CyVerse_logo: http://learning.cyverse.org/
 
-.. |Home_Icon| image:: ../img/homeicon.png
+.. |Home_Icon| image:: ./img/homeicon.png
     :width: 25
     :height: 25
 
 .. _Home_Icon: http://learning.cyverse.org/
 
-.. |Intercom| image:: ../img/intercom.png
+.. |Intercom| image:: ./img/intercom.png
     :width: 25
     :height: 25
