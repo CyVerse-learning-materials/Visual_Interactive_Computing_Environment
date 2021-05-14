@@ -51,8 +51,6 @@ Once the app is ready, it will transition to the Jupyter Lab interface
 .. Important::
 	Normal wait times for a featured VICE App are less than 2 minutes. If you're experiencing a significantly longer wait, consider terminating  the app and re-starting. 
 	
-|jupyter2-3|	
-	
 **The Jupyter Lab Interface:** Jupyter Lab provides flexible building blocks for interactive, exploratory computing. While Jupyter Lab has many features found in traditional integrated development environments (IDEs), it remains focused on interactive, exploratory computing. The Jupyter Lab interface consists of a main work area containing tabs of documents and activities, a collapsible left sidebar, and a menu bar. The left sidebar contains a file browser, the list of running kernels and terminals, the command palette, the notebook cell tools inspector, and the tabs list.
 
 More information about the Jupyter Lab can be found `here <https://jupyterlab.readthedocs.io/en/stable/user/interface.html>`_.
@@ -60,13 +58,15 @@ More information about the Jupyter Lab can be found `here <https://jupyterlab.re
 4. Create Jupyter notebook
 ==========================
 
+|jupyter2-3|	
+
 Jupyter notebooks (``.ipynb``) combine code with narrative text (Markdown), equations (LaTeX), images and interactive visualizations. 
 
 To create a notebook, click the ``+`` button, this opens the new Launcher tab. 
 
 The JupyterLab Datascience containers have three pre-installed kernels: Python3, Julia, and R. 
 
-`Jupyter notebooks <https://jupyterlab.readthedocs.io/en/stable/user/notebook.html>`_
+`Official Jupyter Notebooks <https://jupyterlab.readthedocs.io/en/stable/user/notebook.html>`_
 
 .. Tip::
 
