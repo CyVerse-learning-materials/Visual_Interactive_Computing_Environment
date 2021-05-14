@@ -9,7 +9,7 @@
 
    <a href="https://github.com/CyVerse-learning-materials/container-camp" target="blank">Github Repo Link</a>
 
-.. Comment: Images specific to this RTD Repo
+.. Comment: table urls for /vice_apps/examples.rst
 
 .. |rstudio-verse-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _rstudio-verse-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=b548d3e2-3310-45ae-8b1f-78e8cce2cfaf&app-id=3548f43a-bed1-11e9-af16-008cfa5ae621
@@ -22,6 +22,12 @@
 
 .. |jupyter-scipy-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _jupyter-scipy-latest: https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=91c72a5d-0ce9-484f-a1f1-feba4cab75a5&app-id=bc93504c-d584-11e9-8413-008cfa5ae621
+
+.. |jupyter-datascience-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
+.. _jupyter-datascience-latest: https://de.cyverse.org/apps/de/07a2d5b2-76e2-11eb-be5f-008cfa5ae621/launch?quick-launch-id=60054c75-0e80-4169-8a9b-51cba04f756d
+
+
+.. Comment: Images specific to this RTD Repo
 
 
 .. |jupyter2-0| image:: ../img/vice/jupyter/jupyter2-0.png
