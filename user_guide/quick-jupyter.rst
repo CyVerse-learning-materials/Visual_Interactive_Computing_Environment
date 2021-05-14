@@ -28,7 +28,7 @@ Clicking on **Apps** find the JupyterLab you're interested in and then click on 
 By default the Analysis Name is the name of the App, and the Output Folder is where any work done in the container will be written to ``/iplant/home/username/analyses/analysis_name/`` directory **AFTER** the interactive analysis is completed. 
 
 .. Note::
-	Terminating an App will stop it from writing outputs to your data store ``analyses/`` directory.
+	Deleting a running Analysis will stop it from writing outputs to your data store ``analyses/`` directory.
 
 |jupyter2-2|
 
@@ -76,7 +76,7 @@ To connect to the CyVerse DataStore, click the little CyVerse orb in the left si
 
 |jupyter2-4|
 
-You should now be connected to your ``/iplant/home/usernam`` home directory. Navigate to the 'shared' directory by clicking one order higher on the ``/home`` directory, you should now see your username and the ``/shared`` path.
+You should now be connected to your ``/iplant/home/username`` home directory. Navigate to the 'shared' directory by clicking one order higher on the ``/home`` directory, you should now see your username and the ``/shared`` path.
 
 Navigate to ``/shared/cyverse_training/platform_guides/discovery_environment/jupyterlab`` and open the `Penguins <https://github.com/JohnMount/Penguins>`_ sample dataset 
 
