@@ -89,7 +89,7 @@ The |RStudio VICE| apps are based on official |Rocker Project Images|.
 The |Shiny VICE| apps are based on official |Rocker Project Images|.
 
 4. What is Ubuntu Desktop?
-=========================
+==========================
 
 The Ubuntu Desktop has a full Guacamole installation and Ubuntu XFCE desktop. This allows users to have a simple all-in-one desktop through their web browser. Users can run any interactive or visualization tool that can run on the most recent linux distros. Solutions to support the inevitable array of linux applications that user will want. Potential options include:
 
@@ -110,19 +110,6 @@ Linux Desktops using Apache Guacamole, and Xpra have been integrated into the DE
 - On Github: `Repo link <https://github.com/CyVerse-learning-materials/sciapps_guide>`_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
-----
-
-  |Home_Icon|_
-  `Learning Center Home <http://learning.cyverse.org/>`_
-
-.. |CyVerse_logo| image:: ../img/cyverse_learning.png
-    :width: 500
-.. _CyVerse_logo: https://cyverse.org/
-
-.. |Home_Icon| image:: ../img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
 
 .. |JupyterLab VICE| raw:: html
    

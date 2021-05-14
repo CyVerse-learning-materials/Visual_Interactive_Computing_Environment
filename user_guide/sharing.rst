@@ -80,35 +80,6 @@ but it doesn't have any parameters pre-filled.
 
 ----
 
-
-.. Comment: Place Images Below This Line
-   use :width: to give a desired width for your image
-   use :height: to give a desired height for your image
-   replace the image name/location and URL if hyperlinked
-
-
- .. |Clickable hyperlinked image| image:: ./img/IMAGENAME.png
-    :width: 500
-    :height: 100
- .. _CyVerse logo: http://learning.cyverse.org/
-
- .. |Static image| image:: ./img/IMAGENAME.png
-    :width: 25
-    :height: 25
-
-|Home_Icon|_
-`Learning Center Home <http://learning.cyverse.org/>`_
-
-.. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
-    :width: 500
-    :height: 100
-.. _CyVerse_logo: https://cyverse.org/
-
-.. |Home_Icon| image:: ../img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
-
 .. |vice-share-1| image:: ../img/vice-share-1.png
     :width: 750
 	

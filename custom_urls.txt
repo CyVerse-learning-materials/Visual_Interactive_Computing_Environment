@@ -50,3 +50,46 @@
 	:height: 400
 .. |app-loading| image:: ../img/vice/jupyter/app_loading.gif
 	:width: 700
+.. |flow| image:: ../img/flow_new.png
+    :width: 700
+    :height: 400
+.. |shiny1-1| image:: ../img/vice/shiny/shiny1-1.png
+	:width: 700
+	:height: 400
+.. |shiny1-2| image:: ../img/vice/shiny/shiny1-2.png
+	:width: 700
+	:height: 400
+.. |shiny1-3| image:: ../img/vice/shiny/shiny1-3.png
+	:width: 700
+	:height: 400
+.. |shiny1-4| image:: ../img/vice/shiny/shiny1-4.png
+	:width: 700
+	:height: 400
+.. |shiny1-5| image:: ../img/vice/shiny/shiny1-5.png
+	:width: 700
+	:height: 400
+.. |shiny1-6| image:: ../img/vice/shiny/shiny1-6.png
+	:width: 700
+	:height: 400
+.. |shiny1-7| image:: ../img/vice/shiny/shiny1-7.png
+	:width: 700
+	:height: 400
+.. |shiny1-8| image:: ../img/vice/shiny/shiny1-8.png
+	:width: 700
+	:height: 400
+.. |shiny1-9| image:: ../img/vice/shiny/shiny1-9.png
+	:width: 700
+	:height: 400
+.. |shiny1-10| image:: ../img/vice/shiny/shiny1-10.png
+	:width: 700
+	:height: 400
+.. |shiny1-11| image:: ../img/vice/shiny/shiny1-11.png
+	:width: 700
+	:height: 400
+.. |shiny1-12| image:: ../img/vice/shiny/shiny1-12.png
+	:width: 700
+	:height: 400
+.. |shiny1-13| image:: ../img/vice/shiny/shiny1-13.png
+	:width: 700
+	:height: 400
+	

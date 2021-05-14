@@ -33,21 +33,3 @@ Conclusion
 
 **VICE** combines the cyberinfrastructure power of CyVerse with the interactivity of modern web-based IDE and data science software, allowing researchers to work seamlessly with their data within a single, high-performance data science workbench.
 
-----
-
-.. Comment: images
-
-.. |CyVerse_logo| image:: ../img/cyverse_learning.png
-    :width: 500
-
-.. _CyVerse_logo: http://learning.cyverse.org/
-
-.. |Home_Icon| image:: ../img/homeicon.png
-    :width: 25
-    :height: 25
-
-.. _Home_Icon: http://learning.cyverse.org/
-
-.. |Intercom| image:: ../img/intercom.png
-    :width: 25
-    :height: 25

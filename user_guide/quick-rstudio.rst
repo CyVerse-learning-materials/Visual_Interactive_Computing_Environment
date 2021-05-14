@@ -76,27 +76,13 @@ After you had done this, you can find the outputs that you generated (if any) us
 .. Warning::
 
 	Currently, VICE can run for 48 hrs beyond which the apps will be terminated. So make sure you run your analysis before 48 hrs.
-----
+
+---- 
 
 **Fix or improve this documentation**
 
 - On Github: `Repo link <https://github.com/CyVerse-learning-materials/sciapps_guide>`_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
-
-----
-
-|Home_Icon|_
-`Learning Center Home <http://learning.cyverse.org/>`_
-
-.. |CyVerse_logo| image:: ../img/cyverse_cmyk.png
-    :width: 500
-    :height: 100
-.. _CyVerse_logo: http://cyverse.org/
-
-.. |Home_Icon| image:: ../img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org
 
 .. |rstudio3-1| image:: ../img/vice/rstudio/rstudio3-1.png
 	:width: 700
