@@ -35,13 +35,19 @@ Conclusion
 
 ----
 
-  |Home_Icon|_
-  `Learning Center Home <http://learning.cyverse.org/>`_
+.. Comment: images
+
+.. |CyVerse_logo| image:: ../img/cyverse_learning.png
+    :width: 500
+
+.. _CyVerse_logo: http://learning.cyverse.org/
 
 .. |Home_Icon| image:: ../img/homeicon.png
     :width: 25
     :height: 25
+
 .. _Home_Icon: http://learning.cyverse.org/
 
-.. |VICE diagram| image:: ../img/vice_diagram.png
-    :width: 800
+.. |Intercom| image:: ../img/intercom.png
+    :width: 25
+    :height: 25
