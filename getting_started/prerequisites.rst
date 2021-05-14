@@ -30,6 +30,7 @@
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
+
 .. Comment: images
 
 .. |CyVerse_logo| image:: ../img/cyverse_learning.png
