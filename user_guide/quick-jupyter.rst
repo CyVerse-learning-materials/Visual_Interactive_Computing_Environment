@@ -4,7 +4,7 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-**Jupyter Lab**
+**JupyterLab**
 ---------------
 
 1. Search for JupyterLab
@@ -60,15 +60,25 @@ More information about the Jupyter Lab can be found `here <https://jupyterlab.re
 4. Create Jupyter notebook
 ==========================
 
-Jupyter notebooks are documents that combine live runnable code with narrative text (Markdown), equations (LaTeX), images, interactive visualizations and other rich output. Jupyter notebooks (.ipynb files) are fully supported in JupyterLab.
+Jupyter notebooks (``.ipynb``) combine code with narrative text (Markdown), equations (LaTeX), images and interactive visualizations. 
 
-If you want to create a notebook, you can do so by clicking the ``+`` button in the file browser and then selecting a kernel in the new Launcher tab. Currently there are 3 different notebooks available - Python3, Julia and R. Click on `Python 3` under Notebook section in the JupyterLab Interface, which will open a new Jupyter Notebook. A new file is created with a default name. Rename a file by right-clicking on its name in the file browser and selecting “Rename” from the context menu.
+To create a notebook, click the ``+`` button, this opens the new Launcher tab. 
 
-To know more about notebooks in JupyterLab click `here <https://jupyterlab.readthedocs.io/en/stable/user/notebook.html>`_
+The JupyterLab Datascience containers have three pre-installed kernels: Python3, Julia, and R. 
+
+`Jupyter notebooks <https://jupyterlab.readthedocs.io/en/stable/user/notebook.html>`_
 
 .. Tip::
 
-	To open the classic Notebook from Jupyter Lab, select “Launch Classic Notebook” from the Help Menu.
+	To open the classic Notebook view from JupyterLab, select “Launch Classic Notebook” from the Help Menu.
+
+To connect to the CyVerse DataStore, click the little CyVerse orb in the left side of the Lab. 
+
+|jupyter2-4|
+
+You should now be connected to your ``/iplant/home/usernam`` home directory. Navigate to the 'shared' directory by clicking one order higher on the ``/home`` directory, you should now see your username and the ``/shared`` path.
+
+Navigate to ``/shared/cyverse_training/platform_guides/discovery_environment/jupyterlab`` and open the `Penguins<https://github.com/JohnMount/Penguins>`_ sample dataset 
 
 |jupyter2-5|
 
@@ -76,8 +86,8 @@ To know more about notebooks in JupyterLab click `here <https://jupyterlab.readt
 
 	There are plenty other cool stuff that you can do in Jupyter Lab such as using `consoles <https://jupyterlab.readthedocs.io/en/stable/user/code_console.html>`_, using `terminal <https://jupyterlab.readthedocs.io/en/stable/user/terminal.html>`_ and using `text editor <https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html>`_.
 
-5. Write your code
-==================
+5. Write your own code
+======================
 
 Once you open a new notebook, you can start writing your code, put markdown text, generate plots, save plots etc.
 
@@ -93,7 +103,7 @@ After finishing your analysis, you can save outputs to data store by clicking th
 After you had done this, you can find the outputs that you generated (if any) using the same steps as before, but this time selecting 'Go To Output Folder'.
 
 .. Warning::
-	Currently, VICE can run for 48 hrs beyond which the apps will be terminated. If you have opted for email notifications from DE, then you'll get a notification 1 day before and 1 hour before the app gets terminated. If you want to extend the time, you need to login to http://cyverse.run, find your analysis and then click the hour glass which automatically extends the app run time to 3 more days.
+	VICE apps only run for a pre-determined amount of time, typically between 4 and 48 hours. If you have opted for email notifications from DE, then you'll get a notification 1 day before and 1 hour before the app gets terminated. If you want to extend the time, you need to login to http://cyverse.run, find your analysis and then click the hour glass which automatically extends the app run time to 3 more days.
 
 **Fix or improve this documentation**
 
