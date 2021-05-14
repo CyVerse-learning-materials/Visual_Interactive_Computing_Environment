@@ -96,14 +96,16 @@ Once you open a new notebook, you can start writing your code, put markdown text
 6. Complete and Save Outputs
 ============================
 
-After finishing your analysis, you can save outputs to data store by clicking the Analysis window, then select the VICE analysis that you are running and select `Complete and Save Outputs` under the "Analyses" button.
-
 |jupyter2-7|
+
+After finishing your analysis, you can save outputs to Data Store by clicking the Analysis window, then select the VICE analysis that you are running and select `Terminate` under the "Analyses" button.
+
+|jupyter2-8|
 
 After you had done this, you can find the outputs that you generated (if any) using the same steps as before, but this time selecting 'Go To Output Folder'.
 
 .. Warning::
-	VICE apps only run for a pre-determined amount of time, typically between 4 and 48 hours. If you have opted for email notifications from DE, then you'll get a notification 1 day before and 1 hour before the app gets terminated. If you want to extend the time, you need to login to http://cyverse.run, find your analysis and then click the hour glass which automatically extends the app run time to 3 more days.
+	VICE apps only run for a pre-determined amount of time, typically between 4 and 48 hours. If you have opted for email notifications from DE, then you'll get a notification 1 day before and 1 hour before the app gets terminated. If you want to extend the time, you need to login to https://de.cyverse.org, find your analysis and then click the hour glass which automatically extends the app run time.
 
 **Fix or improve this documentation**
 
