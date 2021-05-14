@@ -78,7 +78,7 @@ To connect to the CyVerse DataStore, click the little CyVerse orb in the left si
 
 You should now be connected to your ``/iplant/home/usernam`` home directory. Navigate to the 'shared' directory by clicking one order higher on the ``/home`` directory, you should now see your username and the ``/shared`` path.
 
-Navigate to ``/shared/cyverse_training/platform_guides/discovery_environment/jupyterlab`` and open the `Penguins<https://github.com/JohnMount/Penguins>`_ sample dataset 
+Navigate to ``/shared/cyverse_training/platform_guides/discovery_environment/jupyterlab`` and open the `Penguins <https://github.com/JohnMount/Penguins>`_ sample dataset 
 
 |jupyter2-5|
 
