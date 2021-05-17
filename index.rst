@@ -31,7 +31,7 @@ Last, we provide a brief list of featured VICE apps in the DE.
 
    user_guide/quick-jupyter
    user_guide/quick-rstudio
-   user_guide/quick-rshiny
+   .. user_guide/quick-rshiny
    user_guide/sharing
 
 .. toctree::
