@@ -7,7 +7,7 @@
 
 .. |Github Repo Link|  raw:: html
 
-   <a href="https://github.com/CyVerse-learning-materials/container-camp" target="blank">Github Repo Link</a>
+   <a href="https://github.com/CyVerse-learning-materials/Visual_Interactive_Computing_Environment" target="blank">Github Repo Link</a>
 
 .. Comment: table urls for /vice_apps/examples.rst
 
