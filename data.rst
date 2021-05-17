@@ -1,4 +1,6 @@
 .. include:: cyverse_rst_defined_substitutions.txt
+.. include:: custom_urls.txt
+
 |CyVerse_logo|_
 
 |Home_Icon|_
@@ -50,17 +52,3 @@ iRODS Jupyter Plugin
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 
-
-----
-
-  |Home_Icon|_
-  `Learning Center Home <http://learning.cyverse.org/>`_
-
-.. |CyVerse logo| image:: ./img/cyverse_learning.png
-    :width: 500
-    :height: 100
-.. _CyVerse logo: http://learning.cyverse.org/
-.. |Home_Icon| image:: ./img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
