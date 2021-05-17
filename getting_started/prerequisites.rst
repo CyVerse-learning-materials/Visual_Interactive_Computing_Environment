@@ -29,3 +29,6 @@
 - On Github: |Github Repo Link|_
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
+.. |Github Repo Link| raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials/Visual_Interactive_Computing_Environment" target="blank>Github Repo Link</a>
