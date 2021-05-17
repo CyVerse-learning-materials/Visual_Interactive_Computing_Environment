@@ -9,21 +9,21 @@
 **Applications**
 ----------------
 
-Currently, VICE apps are categorized broadly into three different spaces: 
+Currently, VICE apps are categorized as: 
 
 1. Integrated Development Environments (Jupyter Lab and RStudio) 
 2. Interactive apps (Shiny, WebGL, HTML5) 
 3. Virtual Desktop Environment (w/ Apache Guacamole, VNC, XPRA) 
 
-Each of these serve a different data science purpose. 
+.. Each of these serve a different data science purpose. 
 
-* If you are interested in writing Python, Julia, Spark, C++ based data analysis or visualization, Jupyter is most appropriate.
+.. * If you are interested in writing Python, Julia, Spark, C++ based data analysis or visualization, Jupyter is most appropriate.
 
-* If you are interested in creating analyses written in R, RStudio would be more appropriate. 
+.. * If you are interested in creating analyses written in R, RStudio would be more appropriate. 
 
-* If you have a pre-built analysis such as Shiny built in R, Shiny is used.
+.. * If you have a pre-built analysis such as Shiny built in R, Shiny is used.
 
-* If you want to work in other Linux-based software, you can launch a virtual deskop (KDE, Mate, XFCE4, Gnome, etc) and work with your tools interactively.
+.. * If you want to work in other Linux-based software, you can launch a virtual deskop (KDE, Mate, XFCE4, Gnome, etc) and work with your tools interactively.
 
 1. What is JupyterLab?
 ======================
@@ -107,27 +107,5 @@ Linux Desktops using Apache Guacamole, and Xpra have been integrated into the DE
 
 **Fix or improve this documentation:**
 
-- On Github: |Github Repo Link|_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
-
-
-.. |JupyterLab VICE| raw:: html
-   
-   <a href="https://hub.docker.com/r/cyversevice/jupyterlab-scipy" target="blank">JupyterLab VICE</a>
-   
-.. |Project Jupyter Images| raw:: html
-
-   <a href="https://hub.docker.com/u/jupyter" target="blank">Project Jupyter Images</a>
-   
-.. |RStudio VICE| raw:: html
-   
-   <a href="https://hub.docker.com/r/cyversevice/rocker-verse" target="blank">RStudio VICE</a>
-
-.. |Rocker Project Images| raw:: html
-   
-   <a href="https://hub.docker.com/u/rocker" target="blank">Rocker Project Images</a>
-   
-.. |Shiny VICE| raw:: html
-   
-   <a href="https://hub.docker.com/r/cyversevice/shiny-verse" target="blank">Shiny VICE</a>
-   

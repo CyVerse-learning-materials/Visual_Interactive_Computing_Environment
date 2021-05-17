@@ -26,6 +26,31 @@
 .. |jupyter-datascience-latest| image:: https://de.cyverse.org/Powered-By-CyVerse-blue.svg
 .. _jupyter-datascience-latest: https://de.cyverse.org/apps/de/07a2d5b2-76e2-11eb-be5f-008cfa5ae621/launch?quick-launch-id=60054c75-0e80-4169-8a9b-51cba04f756d
 
+.. Comment: these links are from apptypes.rst 
+
+
+
+.. |JupyterLab VICE| raw:: html
+   
+   <a href="https://hub.docker.com/r/cyversevice/jupyterlab-scipy" target="blank">JupyterLab VICE</a>
+   
+.. |Project Jupyter Images| raw:: html
+
+   <a href="https://hub.docker.com/u/jupyter" target="blank">Project Jupyter Images</a>
+   
+.. |RStudio VICE| raw:: html
+   
+   <a href="https://hub.docker.com/r/cyversevice/rocker-verse" target="blank">RStudio VICE</a>
+
+.. |Rocker Project Images| raw:: html
+   
+   <a href="https://hub.docker.com/u/rocker" target="blank">Rocker Project Images</a>
+   
+.. |Shiny VICE| raw:: html
+   
+   <a href="https://hub.docker.com/r/cyversevice/shiny-verse" target="blank">Shiny VICE</a>
+   
+
 
 .. Comment: Images specific to this RTD Repo
 

@@ -46,6 +46,6 @@ Since the images are built based using Dockerfile, make sure you test the Docker
 
 **Fix or improve this documentation:**
 
-- On Github: |Github Repo Link|_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 

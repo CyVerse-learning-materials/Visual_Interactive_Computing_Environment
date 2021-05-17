@@ -46,6 +46,6 @@ CyVerse provides the base images of its featured VICE apps: https://github.com/c
 
 **Fix or improve this documentation**
 
-- On Github: |Github Repo Link|_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 

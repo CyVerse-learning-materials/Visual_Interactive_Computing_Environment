@@ -25,6 +25,6 @@ Ask Forum
 
 **Fix or improve this documentation:**
 
-- On Github: |Github Repo Link|_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 

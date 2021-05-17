@@ -20,6 +20,6 @@ In cases where the installation may be complex, long, or require additional syst
 
 **Fix or improve this documentation**
 
-- On Github: |Github Repo Link|_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 

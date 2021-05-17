@@ -85,24 +85,7 @@ To create a new app, follow the instructions in `here <https://wiki.cyverse.org/
 
 **Fix or improve this documentation:**
 
-- On Github: |Github Repo Link|_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
-----
 
-  |Home_Icon|_
-  `Learning Center Home <http://learning.cyverse.org/>`_
-
-.. |add-tool| image:: ../img/add-tool.png
-
-.. |CyVerse_logo| image:: ../img/cyverse_learning.png
-    :width: 500
-.. _CyVerse logo: http://cyverse.org/
-
-.. |Home_Icon| image:: ../img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
-
-.. |vice-do-not-pass| image:: ../img/do_not_pass.png
-    :width: 750
