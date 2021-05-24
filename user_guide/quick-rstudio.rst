@@ -9,10 +9,11 @@
 -----------
 RStudio is a free, open source IDE (integrated development environment) for R. Its interface is organized so that the user can clearly view graphs, data table, R code and ouput at the same time. It also offers an Import-Wizard-like feature that allows users to import CSV, Excel, SAS (*.sas7bdat), SPSS (*.sav), and Stata (*.dta) files into R without having to write the code to do so.
 
-1. Running Rstudio App
+1. Search for Rstudio App
 ======================
 
-First log-on `CyVerse DE <https://de.cyverse.org/de/>`_, open the Apps window and find the Rstudio Lab app by searching for '*rstudio*'.
+First log-on `CyVerse DE <https://de.cyverse.org/de/>`_
+From the app find the Rstudio Lab app by searching for '*rstudio*'.
 
 |rstudio3-1|
 
