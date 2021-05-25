@@ -14,24 +14,25 @@ RStudio is a free, open source IDE (integrated development environment) for R. I
 
 First log-on `CyVerse DE <https://de.cyverse.org/de/>`_
 
-From the apps window, find the Rstudio Lab app by searching for '*rstudio*'.
+Use the search bar to specify ‘Apps’ or search for '*rstudio*'.
 
 |rstudio3-1|
-
-|rstudio3-2|
 
 2. Launch analysis
 ==================
 
-Launch the Rstudio app by selecting an example folder and then clicking launch analysis. You can select different input files and/or folder.
+Find the RStudio app you are interested in and click on the app. Change the analysis name and output folder or leave it to defaults.
+
+|rstudio3-2|
+
+Launch the Rstudio app by selecting an example folder or click on the details to quick launch example data. You can select different input files and/or folder.
 
 .. Tip::
   You can use input files to import a script into the app.
 
-*To use a file as an input...*
 |rstudio3-3|
 
-*To use a folder as an input...*
+*Use quick launch to input example data...*
 |rstudio3-4|
 
 .. Note::
@@ -43,14 +44,14 @@ Launch the analysis after you are finished selecting the input files (if any).
 3. Navigate to rstudio app url
 ==============================
 
-After the analysis starts running, open your notifications and click on the '*Access your running Analysis here url*'.
+After the analysis starts running, open your notifications and click on the '*Access your running Analysis here url*'. Alternatively, select the app and click on the squarebox from your analysis window.
 
 |rstudio3-6|
 
 4. Launch Rstudio
 =================
 
-In the new URL, enter '*rstudio*' for both username and password
+After you start the VICE App, you will be taken to a loading screen.
 
 |rstudio3-7|
 
@@ -64,12 +65,13 @@ In the Rstudio script section, you can write your code, generate plots, save plo
 
 |rstudio3-8|
 
-|rstudio3-9|
 
-6. Complete your analysis
+6. Complete and Save Outputs
 =======================
 
-Complete your analysis by clicking the Analysis window, then select the rstudio analysis and click '*Complete and Save Outputs*' option under "Analyses" button.
+Complete your analysis by clicking the Analysis window, then select the rstudio analysis. From More Actions tab, click '*Terminate*'.
+
+|rstudio3-9|
 
 |rstudio3-10|
 

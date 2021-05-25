@@ -1,5 +1,7 @@
-sphinx
+sphinx==1.8
+nbsphinx
 recommonmark
 sphinxcontrib-images
 sphinx_bootstrap_theme
 guzzle_sphinx_theme==0.7.11
+sphinx_rtd_theme
