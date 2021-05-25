@@ -12,15 +12,13 @@ You can share your running VICE workspace with colleagues (with a CyVerse accoun
 
 **To share your running workspace**
 
+Click on the Analyses
+
 |vice-share-1|
 
 |vice-share-2| 
 
 |vice-share-3|
-
-|vice-share-4|
-
-|vice-share-5|
 
 **Opening workspaces shared with you**
 
