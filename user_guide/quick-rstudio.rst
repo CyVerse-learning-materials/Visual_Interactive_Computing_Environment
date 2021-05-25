@@ -14,7 +14,7 @@ RStudio is a free, open source IDE (integrated development environment) for R. I
 
 First log-on `CyVerse DE <https://de.cyverse.org/de/>`_
 
-From the app find the Rstudio Lab app by searching for '*rstudio*'.
+From the apps window, find the Rstudio Lab app by searching for '*rstudio*'.
 
 |rstudio3-1|
 
