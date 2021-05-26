@@ -16,15 +16,25 @@ Click on the Analyses
 
 |vice-share-1|
 
+Select the running analysis and click on *Share* from the top bar.
+
 |vice-share-2| 
+
+From the sharing window, search your collaborators by CyVerse username, email or group name.
 
 |vice-share-3|
 
 **Opening workspaces shared with you**
 
+Click on the Analyses
+
 |vice-share-1|
 
+Select the running analysis and click on *Go to analysis* (square arrow box on right).
+
 |vice-share-6|
+
+This will launch the shared analysis in a new window.
 
 |vice-share-7|
 
