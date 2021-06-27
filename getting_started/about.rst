@@ -12,10 +12,11 @@
 
 **VICE** stands for **V**\isual **I**\nteractive **C**\omputing **E**\nvironment and is a part of CyVerse `Discovery Environment (DE) <https://de.cyverse.org>`_. 
 
-**VICE** allows registered CyVerse users to launch virtual machines and access them via the browser. 
+**VICE** allows verified CyVerse users to launch customized containers of their favorite data science platforms.  
 
 What is the big idea?
 =====================
+
 The DE supports executable applications which run as workflows on high performance or high throughput computing environments. 
 **VICE** introduces Graphic User Interfaces (GUI) and common Integrated Development Environments (IDE) such as `Project Jupyter <http://jupyter.org/>`_, `RStudio <https://www.rstudio.com/>`_, & Remote Desktops to the DE.
 
