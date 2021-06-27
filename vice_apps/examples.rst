@@ -18,9 +18,9 @@ These images are built from other official projects, and are maintained by CyVer
 Instant Launches
 ----------------
 
-From the Home tab on the Discovery Environment there are several blessed :shield: apps that have an **Instant Launch** feature which allows you to start the app without adding data in a single click.
+From the Home tab on the Discovery Environment there are several blessed :shield: apps that have an **Instant Launch** feature which allows you to start the app in a single click.
 
-These apps will launch with their default number of cores, amount of RAM, and timeout.
+These apps launch with their default number of cores, amount of RAM, and timeout, and without input data. You can always import data using `https` protocols or iCommands after launch. 
 
 Quick Launches
 --------------
