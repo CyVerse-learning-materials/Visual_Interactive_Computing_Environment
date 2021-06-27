@@ -6,6 +6,15 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
+
+# Verified User Information
+
+To access the interactive apps in the Disocvery Environment, we ask users to provide sufficient information about themselves in their user profiles to ensure proper use of the platform.
+
+We ask users to provide a valid email address from an organization, i.e., `.org`, an educational institution with the `.edu` ending, or a government `.gov` -- we will not grant access to commercial email addresses, e.g., `@gmail.com` `@yahoo.com` `@msn.com` etc.
+
+We also ask that users provide their |ORCID| -- ORCID is the most widely adopted digital identifier for research in the world. 
+
 **Prerequisites**
 -----------------
 
