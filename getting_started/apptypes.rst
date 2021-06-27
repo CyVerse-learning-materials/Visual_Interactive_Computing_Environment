@@ -11,9 +11,9 @@
 
 Currently, VICE apps are categorized as: 
 
-1. Integrated Development Environments (Jupyter Lab and RStudio) 
-2. Interactive apps (Shiny, WebGL, HTML5) 
-3. Virtual Desktop Environment (w/ Apache Guacamole, VNC, XPRA) 
+1. Integrated Development Environments (IDE) (e.g., |rstudio-verse-latest|_ |jupyter-datascience-latest|_) 
+2. Interactive Apps (e.g., Shiny, WebGL, HTML5) 
+3. Virtual Desktop Environment (e.g., Ubuntu Desktops w/ Apache Guacamole, VNC, Xpra) 
 
 .. Each of these serve a different data science purpose. 
 
@@ -87,6 +87,10 @@ The |RStudio VICE| apps are based on official |Rocker Project Images|.
 ~~~~~~~~~~~~~~~~
 
 The |Shiny VICE| apps are based on official |Rocker Project Images|.
+
+Shiny Apps require the contents of a Shiny App be added as an input folder prior to launching a VICE app - otherwise the default Shiny App demo will be the only contents in the container. 
+
+Customized Shiny Apps can be created and deployed using the Tool and App builder. 
 
 4. What is Ubuntu Desktop?
 ==========================
