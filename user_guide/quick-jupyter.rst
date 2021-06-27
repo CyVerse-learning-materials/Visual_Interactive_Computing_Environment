@@ -72,6 +72,9 @@ The JupyterLab Datascience containers have three pre-installed kernels: Python3,
 
 	To open the classic Notebook view from JupyterLab, select “Launch Classic Notebook” from the Help Menu.
 
+5. Adding data to your analysis
+===============================
+
 To connect to the CyVerse DataStore, click the little CyVerse orb in the left side of the Lab. 
 
 |jupyter2-4|
@@ -86,7 +89,7 @@ Navigate to ``/shared/cyverse_training/platform_guides/discovery_environment/jup
 
 	There are plenty other cool stuff that you can do in Jupyter Lab such as using `consoles <https://jupyterlab.readthedocs.io/en/stable/user/code_console.html>`_, using `terminal <https://jupyterlab.readthedocs.io/en/stable/user/terminal.html>`_ and using `text editor <https://jupyterlab.readthedocs.io/en/stable/user/file_editor.html>`_.
 
-5. Write your own code
+6. Write your own code
 ======================
 
 Once you open a new notebook, you can start writing your code, put markdown text, generate plots, save plots etc.
