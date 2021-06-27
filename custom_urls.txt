@@ -15,7 +15,7 @@
 .. _rstudio-verse-latest: https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch?quick-launch-id=81b187d6-cc94-4c53-81b5-f09f31c9c8ba
 
 .. |rstudio-geospatial-latest| image:: https://img.shields.io/badge/Geospatial-latest-blue?style=plastic&logo=rstudio
-.. _rstudio-geospatial-latest: https://de.cyverse.org/apps/de/07e2b2e6-becd-11e9-b524-008cfa5ae621/launch?quick-launch-id=12f25023-b6b1-4f23-bbcc-49f0295da8c4
+.. _rstudio-geospatial-latest: https://de.cyverse.org/apps/de/07e2b2e6-becd-11e9-b524-008cfa5ae621/launch?quick-launch-id=83903e33-a47a-4cab-a56c-57817a1104af
 .. |jupyter-geospatial-latest| image:: https://img.shields.io/badge/Geospatial-latest-orange?style=plastic&logo=jupyter
 .. _jupyter-geospatial-latest: https://de.cyverse.org/apps/de/5eb08814-6b1a-11eb-9180-008cfa5ae621/launch?quick-launch-id=b57269ef-c6cc-43de-a2d9-e2398e53536e
 
