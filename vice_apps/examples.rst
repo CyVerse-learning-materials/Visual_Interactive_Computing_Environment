@@ -9,10 +9,11 @@
 Blessed Apps
 -------------
 
-CyVerse provides the base images of its containers on the DockerHub: https://hub.cyverse.org/r/cyversevice
+CyVerse provides copies of the base images of its containers on the DockerHub: https://hub.docker.com/u/cyversevice
 
 And the recipe Dockerfiles of its featured (blessed :shield:) apps: https://github.com/cyverse-vice/
 
+These images are built from other official projects, and are maintained by CyVerse staff. 
 
 Instant Launches
 ----------------
