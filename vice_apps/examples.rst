@@ -25,14 +25,16 @@ These apps launch with their default number of cores, amount of RAM, and timeout
 Saved Launches
 --------------
 
-Any public app can have a URL generated for it which takes the user directly to the app launcher, allowing the user to select their input data sets, and to set their size and time parameters. These **Saved Launches** of our featured apps are listed below in the table: 
+Saved Launches are badges (specific images) that allow you to share a button link with collaborators so that they can select their input data sets, and set their size and time parameters using the specified app. Any public app can have a link generated for it. 
+ 
+To use one of these Featured Saved Launches listed below in the table, copy the badge (button link) to add to where ever you collaborate (a webpage, project notes, documentation, etc.). 
 
 .. list-table::
     :header-rows: 1
 
     * - App Name
       - Dockerfile
-      - Quick Launch:
+      - Saved Launch
     * - `Rocker Project RStudio Verse <https://github.com/rocker-org/rocker-versioned2>`_ 
       - `GitHub <https://github.com/cyverse-vice/rstudio-verse/>`_
       - |rstudio-verse-latest|_
@@ -46,11 +48,12 @@ Any public app can have a URL generated for it which takes the user directly to 
       - `GitHub <https://github.com/cyverse-vice/jupyterlab-datascience/>`_
       - |jupyter-geospatial-latest|_      
 
+You can design your own badge at `Shields.io <https://shields.io>`_.
 
 ----
 
 **Fix or improve this documentation**
 
 - On Github: |Github Repo Link|
-- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+- Send feedback: `learning@CyVerse.org <learning@CyVerse.org>`_
 
