@@ -6,26 +6,26 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-Blessed Apps
+Featured Apps
 -------------
 
 CyVerse provides copies of the base images of its containers on the DockerHub: https://hub.docker.com/u/cyversevice
 
-And the recipe Dockerfiles of its featured (blessed :shield:) apps: https://github.com/cyverse-vice/
+And the recipe Dockerfiles of its featured apps: https://github.com/cyverse-vice/
 
 These images are built from other official projects, and are maintained by CyVerse staff. 
 
 Instant Launches
 ----------------
 
-From the Home tab on the Discovery Environment there are several blessed :shield: apps that have an **Instant Launch** feature which allows you to start the app in a single click.
+From the Home tab on the Discovery Environment there are several apps that have an **Instant Launch** feature which allows you to start the app in a single click.
 
 These apps launch with their default number of cores, amount of RAM, and timeout, and without input data. You can always import data using `https` protocols or iCommands after launch. 
 
-Quick Launches
+Saved Launches
 --------------
 
-Any public app can have a URL generated for it which takes the user directly to the app launcher, allowing the user to select their input data sets, and to set their size and time parameters. These **Quick Launches** of our featured apps are listed below in the table: 
+Any public app can have a URL generated for it which takes the user directly to the app launcher, allowing the user to select their input data sets, and to set their size and time parameters. These **Saved Launches** of our featured apps are listed below in the table: 
 
 .. list-table::
     :header-rows: 1
