@@ -25,9 +25,11 @@ These apps launch with their default number of cores, amount of RAM, and timeout
 Saved Launches
 --------------
 
-Saved Launches are badges (specific images) that allow you to share a button link with collaborators so that they can select their input data sets, and set their size and time parameters using the specified app. Any public app can have a link generated for it. 
+Saved Launches are direct URLs that allow you to share an app with collaborators. After following the URL, you will be taken to the app launcher where you can select input data sets, and set size and time parameters. Any public app can have a URL generated for it. 
  
 To use one of these Featured Saved Launches listed below in the table, copy the badge (button link) to add to where ever you collaborate (a webpage, project notes, documentation, etc.). 
+ 
+To create your on Saved Launch, proceed with launching the app you want to use. This will be a good time to Favorite the app. In the "Review & Launch" panel, click the "Create Saved Launch" button. You will be asked to name your Saved Launch and check the box when prompted if you would like it to be public. Remember which app you saved, You will find the link under Details of the app you saved.
 
 .. list-table::
     :header-rows: 1
