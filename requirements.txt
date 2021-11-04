@@ -28,7 +28,7 @@ sphinx-rtd-theme
 sphinxcontrib-applehelp
 sphinxcontrib-devhelp
 sphinxcontrib-htmlhelp
-sphinxcontrib-jsmath
+#sphinxcontrib-jsmath
 sphinxcontrib-qthelp
 sphinxcontrib-serializinghtml
 typing-extensions==3.7.4.3
