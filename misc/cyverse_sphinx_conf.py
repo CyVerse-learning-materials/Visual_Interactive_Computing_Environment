@@ -9,7 +9,7 @@ extensions = [
     'sphinx.ext.autodoc',
 ]
 
-project = 'visual_interactive_computing_environment'
+project = 'Visual Interactive Computing Environment'
 copyright = '2021, CyVerse'
 author = 'CyVerse'
 version = '2.1'
