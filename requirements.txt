@@ -33,4 +33,4 @@ sphinxcontrib-qthelp
 sphinxcontrib-serializinghtml
 typing-extensions==3.7.4.3
 ujson==1.35
-watchdog==1.0.2
+watchdog
