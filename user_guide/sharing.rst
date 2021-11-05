@@ -95,8 +95,7 @@ but it doesn't have any parameters pre-filled.
     :width: 750
 .. |vice-share-3| image:: ../img/vice-share-3.png
     :width: 750
-.. |vice-share-4| image:: ../img/vice-share-4.png
-    :width: 750
+
 .. |vice-share-5| image:: ../img/vice-share-5.png
     :width: 750
 .. |vice-share-6| image:: ../img/vice-share-6.png
