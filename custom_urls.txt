@@ -52,74 +52,74 @@
 .. Comment: Images specific to this RTD Repo
 
 
-.. |jupyter2-0| image:: ./img/vice/jupyter/jupyter2-0.png
+.. |jupyter2-0| image:: ../img/vice/jupyter/jupyter2-0.png
 	:width: 700
 	:height: 400
-.. |jupyter2-1| image:: ./img/vice/jupyter/jupyter2-1.png
+.. |jupyter2-1| image:: ../img/vice/jupyter/jupyter2-1.png
 	:width: 700
 	:height: 400
-.. |jupyter2-2| image:: ./img/vice/jupyter/jupyter2-2.png
+.. |jupyter2-2| image:: ../img/vice/jupyter/jupyter2-2.png
 	:width: 700
 	:height: 400
-.. |jupyter2-3| image:: ./img/vice/jupyter/jupyter2-3.png
+.. |jupyter2-3| image:: ../img/vice/jupyter/jupyter2-3.png
 	:width: 700
 	:height: 400
 .. |jupyter2-4| image:: ../img/vice/jupyter/jupyter2-4.png
 	:width: 700
 	:height: 400
-.. |jupyter2-5| image:: ./img/vice/jupyter/jupyter2-5.png
+.. |jupyter2-5| image:: ../img/vice/jupyter/jupyter2-5.png
 	:width: 700
 	:height: 400
-.. |jupyter2-6| image:: ./img/vice/jupyter/jupyter2-6.png
+.. |jupyter2-6| image:: ../img/vice/jupyter/jupyter2-6.png
 	:width: 700
 	:height: 400
-.. |jupyter2-7| image:: ./img/vice/jupyter/jupyter2-7.png
+.. |jupyter2-7| image:: ../img/vice/jupyter/jupyter2-7.png
 	:width: 700
 	:height: 400
-.. |jupyter2-8| image:: ./img/vice/jupyter/jupyter2-8.png
+.. |jupyter2-8| image:: ../img/vice/jupyter/jupyter2-8.png
 	:height: 400	
-.. |app-loading| image:: ./img/vice/jupyter/app_loading.gif
+.. |app-loading| image:: ../img/vice/jupyter/app_loading.gif
 	:width: 700
-.. |flow| image:: ./img/flow_new.png
+.. |flow| image:: ../img/flow_new.png
     :width: 700
     :height: 400
-.. |shiny1-1| image:: ./img/vice/shiny/shiny1-1.png
+.. |shiny1-1| image:: ../img/vice/shiny/shiny1-1.png
 	:width: 700
 	:height: 400
-.. |shiny1-2| image:: ./img/vice/shiny/shiny1-2.png
+.. |shiny1-2| image:: ../img/vice/shiny/shiny1-2.png
 	:width: 700
 	:height: 400
-.. |shiny1-3| image:: ./img/vice/shiny/shiny1-3.png
+.. |shiny1-3| image:: ../img/vice/shiny/shiny1-3.png
 	:width: 700
 	:height: 400
-.. |shiny1-4| image:: ./img/vice/shiny/shiny1-4.png
+.. |shiny1-4| image:: ../img/vice/shiny/shiny1-4.png
 	:width: 700
 	:height: 400
-.. |shiny1-5| image:: ./img/vice/shiny/shiny1-5.png
+.. |shiny1-5| image:: ../img/vice/shiny/shiny1-5.png
 	:width: 700
 	:height: 400
-.. |shiny1-6| image:: ./img/vice/shiny/shiny1-6.png
+.. |shiny1-6| image:: ../img/vice/shiny/shiny1-6.png
 	:width: 700
 	:height: 400
-.. |shiny1-7| image:: ./img/vice/shiny/shiny1-7.png
+.. |shiny1-7| image:: ../img/vice/shiny/shiny1-7.png
 	:width: 700
 	:height: 400
-.. |shiny1-8| image:: ./img/vice/shiny/shiny1-8.png
+.. |shiny1-8| image:: ../img/vice/shiny/shiny1-8.png
 	:width: 700
 	:height: 400
-.. |shiny1-9| image:: ./img/vice/shiny/shiny1-9.png
+.. |shiny1-9| image:: ../img/vice/shiny/shiny1-9.png
 	:width: 700
 	:height: 400
-.. |shiny1-10| image:: ./img/vice/shiny/shiny1-10.png
+.. |shiny1-10| image:: ../img/vice/shiny/shiny1-10.png
 	:width: 700
 	:height: 400
-.. |shiny1-11| image:: ./img/vice/shiny/shiny1-11.png
+.. |shiny1-11| image:: ../img/vice/shiny/shiny1-11.png
 	:width: 700
 	:height: 400
-.. |shiny1-12| image:: ./img/vice/shiny/shiny1-12.png
+.. |shiny1-12| image:: ../img/vice/shiny/shiny1-12.png
 	:width: 700
 	:height: 400
-.. |shiny1-13| image:: ./img/vice/shiny/shiny1-13.png
+.. |shiny1-13| image:: ../img/vice/shiny/shiny1-13.png
 	:width: 700
 	:height: 400
 	
