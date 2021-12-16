@@ -29,6 +29,7 @@ Last, we provide a brief list of featured VICE apps in the DE.
    :maxdepth: 1
    :caption: User Guide
 
+   user_guide/quick-cloudshell
    user_guide/quick-jupyter
    user_guide/quick-rstudio
    .. user_guide/quick-rshiny
