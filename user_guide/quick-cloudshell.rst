@@ -14,15 +14,15 @@ Log into `CyVerse DE <https://de.cyverse.org/de/>`_ with your CyVerse credential
 
 If you have not yet created an account, go to the `User Portal <https://user.cyverse.org>`_ and do so.
 
-The |cli|_ ``Cloud Shell`` App is already pinned to the Discovery Environment Tool Bar (left side of screen). 
+The .. rst-class:: fa fa-terminal ``Cloud Shell`` App is already pinned to the Discovery Environment Tool Bar (left side of screen). 
 
-.. rst-class:: fa fa-terminal
+.. rst-class:: fa fa-terminal 
 
-You can see ``Cloud Shell`` listed when you expand the three bars Menu icon.  
+ You can see ``Cloud Shell`` listed when you expand the three bars Menu icon.  
 
-.. rst-class:: fa fa-bars
+.. rst-class:: fa fa-bars 
 
-Alternately, use the search to specify 'Apps' then type keyword `Shell` or `Cloud Shell`
+ Alternately, use the search to specify 'Apps' then type keyword `Shell` or `Cloud Shell`
 
 |cloudshell-0|
 
@@ -75,8 +75,6 @@ If you have closed the window, and are returning to the Discovery Environment in
 4. Activate a ``conda`` environment
 ===================================
 
-|cloudshell-4|	
-
 The Cloud Shell comes with multiple languages and package managers pre-installed. These include ``go``, ``python``, and ``rust``.
 
 Package managers include ``conda`` and ``cargo`` in addition to linux `apt` and `apt-get`.
@@ -110,8 +108,6 @@ If you recieve a message about refreshing your screen, you can ``exit`` the clou
 ===============================
 
 To connect to the CyVerse DataStore, you can initiate an iRODS iCommands ``iinit`` 
-
-|cloudshell-5|
 
 You should now be connected to your ``/iplant/home/username`` home directory. 
 
