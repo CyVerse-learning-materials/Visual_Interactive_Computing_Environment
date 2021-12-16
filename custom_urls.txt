@@ -51,7 +51,19 @@
 
 .. Comment: Images specific to this RTD Repo
 
-
+.. |cloudshell-0| image:: ../image/vice/cloudshell/cloudshell-0.png
+	:width: 700
+	:height: 400
+.. |cloudshell-1| image:: ../image/vice/cloudshell/cloudshell-1.png
+	:width: 700
+	:height: 400
+.. |cloudshell-2| image:: ../image/vice/cloudshell/cloudshell-2.png
+	:width: 700
+	:height: 400	
+.. |cloudshell-3| image:: ../image/vice/cloudshell/cloudshell-3.png
+	:width: 700
+	:height: 400
+	
 .. |jupyter2-0| image:: ../img/vice/jupyter/jupyter2-0.png
 	:width: 700
 	:height: 400
