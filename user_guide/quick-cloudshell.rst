@@ -14,15 +14,17 @@ Log into `CyVerse DE <https://de.cyverse.org/de/>`_ with your CyVerse credential
 
 If you have not yet created an account, go to the `User Portal <https://user.cyverse.org>`_ and do so.
 
-The .. rst-class:: fa fa-terminal ``Cloud Shell`` App is already pinned to the Discovery Environment Tool Bar (left side of screen). 
+The ``Cloud Shell`` App is already pinned to the Discovery Environment Tool Bar (left side of screen): 
 
 .. rst-class:: fa fa-terminal 
+   
+      Alternately, use the search to specify 'Apps' then type keyword `Shell` or `Cloud Shell`
 
- You can see ``Cloud Shell`` listed when you expand the three bars Menu icon.  
 
 .. rst-class:: fa fa-bars 
+   
+     You can see ``Cloud Shell`` listed when you expand the three bars Menu icon.
 
- Alternately, use the search to specify 'Apps' then type keyword `Shell` or `Cloud Shell`
 
 |cloudshell-0|
 
